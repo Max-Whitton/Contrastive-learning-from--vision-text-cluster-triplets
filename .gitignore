@@ -1,1 +1,3 @@
 ignored_scripts_max
+*.ckpt
+*.json
