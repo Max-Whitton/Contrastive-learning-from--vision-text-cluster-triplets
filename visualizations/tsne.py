@@ -35,7 +35,7 @@ def parse_args():
     parser.add_argument("--output_path", type=str,
                         default=None)
 
-    parser.add_argument("--perplexity", type=float, default=1)
+    parser.add_argument("--perplexity", type=float, default=30)
 
     parser.add_argument("--random_state", type=int, default=42)
 
@@ -45,7 +45,7 @@ def parse_args():
 
     parser.add_argument("--cmap", type=str, default="tab20")
 
-    parser.add_argument("--num_clusters", type=int, default=8)
+    parser.add_argument("--num_clusters", type=int, default=4)
 
     return parser.parse_args()
 
