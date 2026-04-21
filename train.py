@@ -32,7 +32,6 @@ def _setup_parser():
     data_group = parser.add_argument_group("Data Args")
     MultiModalDataModule.add_to_argparse(data_group)
     MultiModalSAYCamDataModule.add_additional_to_argparse(data_group)
-    COCOCaptionsDataModule.add_additional_to_argparse(data_group)
     
     MultiModalSAYCamDataModuleBabyFM.add_additional_to_argparse(data_group)
 
@@ -166,9 +165,9 @@ def main():
                                                     checkpoint_callback])
 
     import multimodal.data_modules as data_modules
-    ata_modules.TRAIN_DATA_DIR = Path(args.train_data_path)
+    data_modules.TRAIN_DATA_DIR = Path(args.train_data_path)
     if args.val_data_path is not None:
-        ata_modules.VAL_DATA_DIR = Path(args.val_data_path)
+        data_modules.VAL_DATA_DIR = Path(args.val_data_path)
     if args.test_data_path is not None:
         data_modules.TEST_DATA_DIR = Path(args.test_data_path)
     if hasattr(args, 'num_touch_classes') and args.num_touch_classes is not None:

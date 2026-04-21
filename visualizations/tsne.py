@@ -12,7 +12,7 @@ from PIL import Image
 import sys
 import timm
 
-sys.path.append('/projectnb/ivc-ml/ac25/Baby LLaVA/multimodal-baby')
+sys.path.append('..')
 import multimodal
 from multimodal.multimodal_data_module import (
     IMAGE_H, IMAGE_W
