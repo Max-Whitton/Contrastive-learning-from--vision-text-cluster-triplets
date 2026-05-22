@@ -7437,3 +7437,879 @@
 2026-05-22 16:24:32,647 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/wandb-summary.json
 2026-05-22 16:24:33,648 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
 2026-05-22 16:24:35,648 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:24:37,649 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:24:38,218 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:24:39,650 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:24:41,652 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:24:42,508 DEBUG   SenderThread:430937 [sender.py:send():379] send: stats
+2026-05-22 16:24:43,297 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:24:43,298 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:24:43,298 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:24:43,298 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:24:43,653 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:24:46,337 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:24:47,338 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:24:48,458 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:24:49,339 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:24:51,339 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:24:53,340 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:24:54,037 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:24:55,341 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:24:57,342 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:24:58,297 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:24:58,298 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:24:58,298 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:24:59,343 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:24:59,614 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:25:01,344 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:25:03,345 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:25:05,209 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:25:05,346 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:25:07,347 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:25:09,348 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:25:10,794 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:25:11,349 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:25:12,508 DEBUG   SenderThread:430937 [sender.py:send():379] send: stats
+2026-05-22 16:25:13,297 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:25:13,298 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:25:13,298 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:25:13,350 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:25:15,351 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:25:16,380 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:25:17,352 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:25:18,268 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: partial_history
+2026-05-22 16:25:18,269 DEBUG   SenderThread:430937 [sender.py:send():379] send: history
+2026-05-22 16:25:18,269 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: summary_record
+2026-05-22 16:25:18,270 INFO    SenderThread:430937 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2026-05-22 16:25:18,352 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/wandb-summary.json
+2026-05-22 16:25:19,353 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:25:21,353 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:25:21,957 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:25:23,354 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:25:25,355 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:25:27,356 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:25:27,538 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:25:28,297 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:25:28,298 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:25:28,298 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:25:29,357 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:25:31,358 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:25:33,114 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:25:33,359 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:25:35,359 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:25:37,360 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:25:38,699 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:25:39,361 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:25:41,362 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:25:42,509 DEBUG   SenderThread:430937 [sender.py:send():379] send: stats
+2026-05-22 16:25:43,297 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:25:43,298 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:25:43,298 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:25:43,363 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:25:44,273 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:25:45,363 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:25:47,364 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:25:49,365 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:25:49,849 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:25:51,366 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:25:53,367 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:25:55,367 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:25:55,446 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:25:57,369 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:25:58,297 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:25:58,298 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:25:58,298 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:25:59,370 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:26:01,010 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:26:01,371 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:26:03,371 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:26:04,766 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: partial_history
+2026-05-22 16:26:04,766 DEBUG   SenderThread:430937 [sender.py:send():379] send: history
+2026-05-22 16:26:04,767 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: summary_record
+2026-05-22 16:26:04,767 INFO    SenderThread:430937 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2026-05-22 16:26:05,372 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/wandb-summary.json
+2026-05-22 16:26:05,372 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:26:06,594 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:26:07,373 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:26:09,374 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:26:11,375 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:26:12,185 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:26:12,510 DEBUG   SenderThread:430937 [sender.py:send():379] send: stats
+2026-05-22 16:26:13,297 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:26:13,298 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:26:13,298 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:26:13,376 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:26:15,376 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:26:17,377 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:26:17,777 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:26:19,378 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:26:21,379 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:26:23,373 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:26:23,379 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:26:25,381 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:26:27,382 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:26:28,298 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:26:28,298 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:26:28,298 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:26:28,438 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:26:29,383 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:26:31,383 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:26:33,384 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:26:33,604 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:26:35,385 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:26:37,386 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:26:39,188 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:26:39,387 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:26:41,388 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:26:42,510 DEBUG   SenderThread:430937 [sender.py:send():379] send: stats
+2026-05-22 16:26:43,298 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:26:43,299 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:26:43,299 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:26:43,389 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:26:44,766 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:26:45,389 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:26:47,390 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:26:49,391 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:26:50,345 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:26:51,310 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: partial_history
+2026-05-22 16:26:51,311 DEBUG   SenderThread:430937 [sender.py:send():379] send: history
+2026-05-22 16:26:51,311 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: summary_record
+2026-05-22 16:26:51,312 INFO    SenderThread:430937 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2026-05-22 16:26:51,392 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/wandb-summary.json
+2026-05-22 16:26:51,392 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:26:53,393 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:26:55,394 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:26:55,933 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:26:57,394 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:26:58,298 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:26:58,299 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:26:58,299 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:26:59,395 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:27:01,396 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:27:01,518 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:27:03,397 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:27:05,397 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:27:07,090 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:27:07,399 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:27:09,404 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:27:11,405 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:27:12,511 DEBUG   SenderThread:430937 [sender.py:send():379] send: stats
+2026-05-22 16:27:12,512 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:27:13,298 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:27:13,299 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:27:13,299 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:27:13,406 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:27:15,407 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:27:17,408 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:27:18,262 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:27:19,408 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:27:21,409 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:27:23,410 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:27:23,853 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:27:25,411 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:27:27,411 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:27:28,298 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:27:28,299 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:27:28,299 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:27:29,412 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:27:29,438 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:27:31,413 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:27:33,414 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:27:35,014 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:27:35,415 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:27:37,416 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:27:37,835 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: partial_history
+2026-05-22 16:27:37,835 DEBUG   SenderThread:430937 [sender.py:send():379] send: history
+2026-05-22 16:27:37,836 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: summary_record
+2026-05-22 16:27:37,836 INFO    SenderThread:430937 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2026-05-22 16:27:38,416 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/wandb-summary.json
+2026-05-22 16:27:39,416 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:27:40,588 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:27:41,417 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:27:42,512 DEBUG   SenderThread:430937 [sender.py:send():379] send: stats
+2026-05-22 16:27:43,298 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:27:43,299 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:27:43,299 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:27:43,418 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:27:45,419 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:27:46,161 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:27:47,420 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:27:49,420 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:27:51,421 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:27:51,737 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:27:53,422 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:27:55,423 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:27:57,319 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:27:57,424 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:27:58,298 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:27:58,299 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:27:58,299 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:27:59,425 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:28:01,425 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:28:02,889 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:28:03,426 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:28:05,427 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:28:07,428 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:28:08,465 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:28:09,429 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:28:11,430 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:28:12,512 DEBUG   SenderThread:430937 [sender.py:send():379] send: stats
+2026-05-22 16:28:13,298 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:28:13,299 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:28:13,299 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:28:13,431 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:28:14,047 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:28:15,431 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:28:17,433 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:28:19,434 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:28:19,627 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:28:21,435 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:28:23,436 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:28:24,321 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: partial_history
+2026-05-22 16:28:24,321 DEBUG   SenderThread:430937 [sender.py:send():379] send: history
+2026-05-22 16:28:24,322 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: summary_record
+2026-05-22 16:28:24,322 INFO    SenderThread:430937 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2026-05-22 16:28:24,436 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/wandb-summary.json
+2026-05-22 16:28:25,212 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:28:25,438 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:28:27,438 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:28:28,298 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:28:28,299 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:28:28,299 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:28:29,439 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:28:30,791 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:28:31,440 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:28:33,441 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:28:35,442 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:28:36,359 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:28:37,443 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:28:39,443 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:28:41,444 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:28:41,937 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:28:42,513 DEBUG   SenderThread:430937 [sender.py:send():379] send: stats
+2026-05-22 16:28:43,299 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:28:43,299 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:28:43,299 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:28:43,445 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:28:45,446 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:28:47,446 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:28:47,515 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:28:49,447 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:28:51,448 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:28:53,103 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:28:53,470 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:28:55,470 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:28:57,471 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:28:58,299 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:28:58,299 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:28:58,299 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:28:58,300 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:28:59,472 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:29:01,473 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:29:03,316 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:29:03,474 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:29:05,474 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:29:07,476 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:29:08,905 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:29:09,476 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:29:10,801 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: partial_history
+2026-05-22 16:29:10,802 DEBUG   SenderThread:430937 [sender.py:send():379] send: history
+2026-05-22 16:29:10,802 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: summary_record
+2026-05-22 16:29:10,803 INFO    SenderThread:430937 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2026-05-22 16:29:11,477 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/wandb-summary.json
+2026-05-22 16:29:11,477 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:29:12,514 DEBUG   SenderThread:430937 [sender.py:send():379] send: stats
+2026-05-22 16:29:13,299 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:29:13,299 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:29:13,300 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:29:13,479 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:29:14,459 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:29:15,480 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:29:17,481 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:29:19,482 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:29:20,024 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:29:21,482 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:29:23,483 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:29:25,484 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:29:25,590 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:29:27,485 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:29:28,299 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:29:28,300 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:29:28,300 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:29:29,486 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:29:31,174 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:29:31,487 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:29:33,487 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:29:35,489 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:29:36,743 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:29:37,498 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:29:39,499 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:29:41,500 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:29:42,323 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:29:42,514 DEBUG   SenderThread:430937 [sender.py:send():379] send: stats
+2026-05-22 16:29:43,299 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:29:43,299 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:29:43,299 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:29:43,500 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:29:45,501 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:29:47,502 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:29:47,907 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:29:49,503 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:29:51,504 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:29:53,476 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:29:53,505 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:29:55,505 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:29:57,228 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: partial_history
+2026-05-22 16:29:57,228 DEBUG   SenderThread:430937 [sender.py:send():379] send: history
+2026-05-22 16:29:57,229 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: summary_record
+2026-05-22 16:29:57,230 INFO    SenderThread:430937 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2026-05-22 16:29:57,506 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/wandb-summary.json
+2026-05-22 16:29:57,506 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:29:58,299 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:29:58,300 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:29:58,300 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:29:59,051 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:29:59,507 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:30:01,508 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:30:03,509 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:30:04,641 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:30:05,509 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:30:07,511 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:30:09,512 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:30:10,231 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:30:11,513 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:30:12,515 DEBUG   SenderThread:430937 [sender.py:send():379] send: stats
+2026-05-22 16:30:13,299 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:30:13,300 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:30:13,300 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:30:13,545 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:30:15,546 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:30:15,806 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:30:17,547 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:30:19,548 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:30:21,386 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:30:21,549 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:30:23,550 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:30:25,551 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:30:26,959 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:30:27,552 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:30:28,299 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:30:28,300 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:30:28,300 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:30:29,553 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:30:31,553 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:30:32,545 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:30:33,554 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:30:35,555 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:30:37,556 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:30:38,129 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:30:39,557 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:30:41,558 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:30:42,516 DEBUG   SenderThread:430937 [sender.py:send():379] send: stats
+2026-05-22 16:30:43,299 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:30:43,300 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:30:43,300 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:30:43,301 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:30:43,558 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:30:43,748 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: partial_history
+2026-05-22 16:30:43,749 DEBUG   SenderThread:430937 [sender.py:send():379] send: history
+2026-05-22 16:30:43,749 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: summary_record
+2026-05-22 16:30:43,750 INFO    SenderThread:430937 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2026-05-22 16:30:44,559 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/wandb-summary.json
+2026-05-22 16:30:45,559 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:30:47,560 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:30:48,354 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:30:49,561 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:30:51,561 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:30:53,562 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:30:53,926 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:30:55,563 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:30:57,564 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:30:58,299 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:30:58,300 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:30:58,300 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:30:59,501 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:30:59,565 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:31:01,566 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:31:03,567 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:31:05,087 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:31:05,568 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:31:07,569 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:31:09,570 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:31:10,661 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:31:11,571 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:31:12,516 DEBUG   SenderThread:430937 [sender.py:send():379] send: stats
+2026-05-22 16:31:13,300 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:31:13,300 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:31:13,301 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:31:13,572 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:31:15,573 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:31:16,230 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:31:17,574 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:31:19,574 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:31:21,575 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:31:21,803 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:31:23,576 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:31:25,577 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:31:27,375 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:31:27,578 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:31:28,300 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:31:28,300 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:31:28,301 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:31:29,578 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:31:30,202 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: partial_history
+2026-05-22 16:31:30,203 DEBUG   SenderThread:430937 [sender.py:send():379] send: history
+2026-05-22 16:31:30,203 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: summary_record
+2026-05-22 16:31:30,204 INFO    SenderThread:430937 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2026-05-22 16:31:30,579 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/wandb-summary.json
+2026-05-22 16:31:31,579 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:31:32,953 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:31:33,580 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:31:35,581 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:31:37,581 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:31:38,529 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:31:39,582 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:31:41,583 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:31:42,517 DEBUG   SenderThread:430937 [sender.py:send():379] send: stats
+2026-05-22 16:31:43,300 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:31:43,301 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:31:43,301 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:31:43,584 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:31:44,101 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:31:45,585 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:31:47,585 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:31:49,587 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:31:49,674 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:31:51,587 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:31:53,588 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:31:55,249 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:31:55,589 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:31:57,590 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:31:58,300 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:31:58,301 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:31:58,301 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:31:59,591 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:32:00,823 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:32:01,591 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:32:03,592 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:32:05,593 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:32:06,401 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:32:07,594 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:32:09,594 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:32:11,595 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:32:11,969 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:32:12,518 DEBUG   SenderThread:430937 [sender.py:send():379] send: stats
+2026-05-22 16:32:13,300 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:32:13,300 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:32:13,301 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:32:13,596 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:32:15,597 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:32:16,659 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: partial_history
+2026-05-22 16:32:16,660 DEBUG   SenderThread:430937 [sender.py:send():379] send: history
+2026-05-22 16:32:16,660 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: summary_record
+2026-05-22 16:32:16,661 INFO    SenderThread:430937 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2026-05-22 16:32:17,554 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:32:17,598 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/wandb-summary.json
+2026-05-22 16:32:17,598 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:32:19,599 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:32:21,600 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:32:23,122 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:32:23,601 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:32:25,603 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:32:27,604 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:32:28,300 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:32:28,301 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:32:28,301 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:32:28,301 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:32:29,605 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:32:31,606 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:32:33,333 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:32:33,607 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:32:35,608 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:32:37,609 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:32:38,906 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:32:39,609 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:32:41,610 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:32:42,518 DEBUG   SenderThread:430937 [sender.py:send():379] send: stats
+2026-05-22 16:32:43,300 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:32:43,301 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:32:43,301 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:32:43,611 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:32:44,479 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:32:45,612 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:32:47,613 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:32:49,613 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:32:50,064 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:32:51,614 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:32:53,615 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:32:55,616 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:32:55,638 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:32:57,617 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:32:58,301 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:32:58,301 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:32:58,301 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:32:59,617 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:33:01,204 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:33:01,618 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:33:03,100 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: partial_history
+2026-05-22 16:33:03,100 DEBUG   SenderThread:430937 [sender.py:send():379] send: history
+2026-05-22 16:33:03,100 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: summary_record
+2026-05-22 16:33:03,101 INFO    SenderThread:430937 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2026-05-22 16:33:03,619 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/wandb-summary.json
+2026-05-22 16:33:03,619 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:33:05,620 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:33:06,787 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:33:07,621 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:33:09,623 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:33:11,623 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:33:12,367 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:33:12,519 DEBUG   SenderThread:430937 [sender.py:send():379] send: stats
+2026-05-22 16:33:13,300 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:33:13,301 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:33:13,301 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:33:13,624 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:33:15,625 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:33:17,626 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:33:17,942 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:33:19,627 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:33:21,628 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:33:23,521 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:33:23,628 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:33:25,629 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:33:27,630 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:33:28,301 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:33:28,301 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:33:28,301 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:33:29,089 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:33:29,631 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:33:31,632 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:33:33,635 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:33:34,655 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:33:35,636 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:33:37,636 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:33:39,637 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:33:40,222 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:33:41,638 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:33:42,520 DEBUG   SenderThread:430937 [sender.py:send():379] send: stats
+2026-05-22 16:33:43,301 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:33:43,301 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:33:43,302 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:33:43,639 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:33:45,640 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:33:45,803 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:33:47,640 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:33:49,557 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: partial_history
+2026-05-22 16:33:49,557 DEBUG   SenderThread:430937 [sender.py:send():379] send: history
+2026-05-22 16:33:49,558 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: summary_record
+2026-05-22 16:33:49,558 INFO    SenderThread:430937 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2026-05-22 16:33:49,641 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/wandb-summary.json
+2026-05-22 16:33:49,641 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:33:51,378 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:33:51,642 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:33:53,643 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:33:55,643 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:33:56,948 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:33:57,644 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:33:58,301 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:33:58,301 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:33:58,302 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:33:59,645 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:34:01,646 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:34:02,532 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:34:03,647 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:34:05,647 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:34:07,649 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:34:08,124 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:34:09,650 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:34:11,650 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:34:12,520 DEBUG   SenderThread:430937 [sender.py:send():379] send: stats
+2026-05-22 16:34:13,301 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:34:13,301 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:34:13,302 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:34:13,302 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:34:13,651 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:34:15,652 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:34:17,653 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:34:18,351 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:34:19,654 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:34:21,655 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:34:23,669 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:34:23,914 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:34:25,671 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:34:27,671 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:34:28,301 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:34:28,302 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:34:28,302 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:34:29,476 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:34:29,672 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:34:31,673 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:34:33,674 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:34:35,053 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:34:35,675 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:34:36,011 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: partial_history
+2026-05-22 16:34:36,012 DEBUG   SenderThread:430937 [sender.py:send():379] send: history
+2026-05-22 16:34:36,012 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: summary_record
+2026-05-22 16:34:36,013 INFO    SenderThread:430937 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2026-05-22 16:34:36,675 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/wandb-summary.json
+2026-05-22 16:34:37,675 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:34:39,676 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:34:40,619 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:34:41,677 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:34:42,521 DEBUG   SenderThread:430937 [sender.py:send():379] send: stats
+2026-05-22 16:34:43,301 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:34:43,301 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:34:43,302 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:34:43,678 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:34:45,679 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:34:46,191 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:34:47,680 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:34:49,680 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:34:51,681 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:34:51,761 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:34:53,682 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:34:55,683 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:34:57,338 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:34:57,684 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:34:58,301 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:34:58,301 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:34:58,302 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:34:59,685 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:35:01,686 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:35:02,910 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:35:03,687 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:35:05,688 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:35:07,689 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:35:08,484 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:35:09,690 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:35:11,691 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:35:12,521 DEBUG   SenderThread:430937 [sender.py:send():379] send: stats
+2026-05-22 16:35:13,301 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:35:13,302 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:35:13,302 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:35:13,692 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:35:14,064 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:35:15,692 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:35:17,693 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:35:19,632 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:35:19,694 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:35:21,695 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:35:22,452 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: partial_history
+2026-05-22 16:35:22,452 DEBUG   SenderThread:430937 [sender.py:send():379] send: history
+2026-05-22 16:35:22,453 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: summary_record
+2026-05-22 16:35:22,453 INFO    SenderThread:430937 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2026-05-22 16:35:22,695 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/wandb-summary.json
+2026-05-22 16:35:23,696 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:35:25,205 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:35:26,697 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:35:28,301 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:35:28,302 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:35:28,302 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:35:28,698 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:35:30,699 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:35:30,770 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:35:32,700 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:35:34,700 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:35:36,345 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:35:36,701 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:35:38,702 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:35:40,703 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:35:41,931 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:35:42,522 DEBUG   SenderThread:430937 [sender.py:send():379] send: stats
+2026-05-22 16:35:42,704 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:35:43,301 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:35:43,302 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:35:43,302 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:35:44,705 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:35:46,706 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:35:47,506 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:35:48,706 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:35:50,707 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:35:52,708 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:35:53,076 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:35:54,709 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:35:56,710 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:35:58,301 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:35:58,302 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:35:58,302 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:35:58,303 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:35:58,711 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:36:00,711 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:36:02,712 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:36:03,334 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:36:04,713 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:36:06,714 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:36:08,715 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:36:08,877 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:36:08,913 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: partial_history
+2026-05-22 16:36:08,913 DEBUG   SenderThread:430937 [sender.py:send():379] send: history
+2026-05-22 16:36:08,914 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: summary_record
+2026-05-22 16:36:08,914 INFO    SenderThread:430937 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2026-05-22 16:36:09,715 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/wandb-summary.json
+2026-05-22 16:36:10,716 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:36:12,523 DEBUG   SenderThread:430937 [sender.py:send():379] send: stats
+2026-05-22 16:36:12,716 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:36:13,302 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:36:13,302 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:36:13,302 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:36:14,454 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:36:14,717 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:36:16,718 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:36:18,719 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:36:20,030 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:36:20,720 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:36:22,721 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:36:24,722 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:36:25,607 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:36:26,724 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:36:28,302 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:36:28,302 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:36:28,302 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:36:28,724 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:36:30,725 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:36:31,178 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:36:32,726 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:36:34,727 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:36:36,727 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:36:36,771 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:36:38,728 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:36:40,729 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:36:42,347 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:36:42,523 DEBUG   SenderThread:430937 [sender.py:send():379] send: stats
+2026-05-22 16:36:42,730 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:36:43,302 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:36:43,302 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:36:43,303 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:36:44,730 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:36:46,731 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:36:47,930 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:36:48,732 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:36:50,733 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:36:52,734 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:36:53,513 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:36:54,943 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:36:55,408 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: partial_history
+2026-05-22 16:36:55,409 DEBUG   SenderThread:430937 [sender.py:send():379] send: history
+2026-05-22 16:36:55,409 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: summary_record
+2026-05-22 16:36:55,410 INFO    SenderThread:430937 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2026-05-22 16:36:55,944 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/wandb-summary.json
+2026-05-22 16:36:55,944 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:36:57,945 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:36:58,302 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:36:58,302 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:36:58,303 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:36:59,090 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:36:59,945 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:37:01,946 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:37:03,947 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:37:04,671 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:37:05,948 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:37:07,949 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:37:09,950 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:37:10,246 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:37:11,951 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:37:12,524 DEBUG   SenderThread:430937 [sender.py:send():379] send: stats
+2026-05-22 16:37:13,302 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:37:13,303 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:37:13,303 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:37:13,951 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:37:15,829 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:37:15,952 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:37:17,953 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:37:19,954 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:37:21,407 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:37:21,954 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:37:23,955 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:37:25,956 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:37:26,984 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:37:27,957 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:37:28,302 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:37:28,303 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:37:28,303 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:37:29,958 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:37:31,958 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:37:32,562 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:37:33,959 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:37:35,960 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:37:37,961 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:37:38,132 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:37:39,962 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:37:41,894 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: partial_history
+2026-05-22 16:37:41,894 DEBUG   SenderThread:430937 [sender.py:send():379] send: history
+2026-05-22 16:37:41,895 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: summary_record
+2026-05-22 16:37:41,895 INFO    SenderThread:430937 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2026-05-22 16:37:41,963 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/wandb-summary.json
+2026-05-22 16:37:41,963 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:37:42,525 DEBUG   SenderThread:430937 [sender.py:send():379] send: stats
+2026-05-22 16:37:43,302 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:37:43,303 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:37:43,303 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:37:43,303 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:37:43,963 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:37:45,964 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:37:47,965 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:37:48,359 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:37:49,966 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:37:51,966 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:37:53,928 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:37:53,967 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:37:55,968 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:37:57,969 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:37:58,302 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:37:58,303 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:37:58,303 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:37:59,501 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:37:59,970 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:38:01,970 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:38:03,971 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:38:05,080 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:38:05,972 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:38:07,973 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:38:09,974 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:38:10,655 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:38:11,976 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:38:12,526 DEBUG   SenderThread:430937 [sender.py:send():379] send: stats
+2026-05-22 16:38:13,302 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:38:13,303 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:38:13,303 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:38:13,976 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:38:15,978 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:38:16,226 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:38:17,978 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:38:19,980 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:38:21,790 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:38:21,981 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:38:23,981 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:38:25,983 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:38:27,365 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:38:27,984 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:38:28,302 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:38:28,303 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:38:28,303 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:38:28,344 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: partial_history
+2026-05-22 16:38:28,412 DEBUG   SenderThread:430937 [sender.py:send():379] send: history
+2026-05-22 16:38:28,413 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: summary_record
+2026-05-22 16:38:28,413 INFO    SenderThread:430937 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2026-05-22 16:38:28,984 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/wandb-summary.json
+2026-05-22 16:38:29,984 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:38:31,985 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:38:32,939 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:38:33,986 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:38:35,987 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:38:38,561 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:38:38,668 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:38:40,669 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:38:42,526 DEBUG   SenderThread:430937 [sender.py:send():379] send: stats
+2026-05-22 16:38:42,670 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:38:43,302 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 16:38:43,303 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 16:38:43,303 DEBUG   SenderThread:430937 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 16:38:43,778 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:38:44,671 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:38:46,672 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:38:48,672 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:38:48,790 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:38:50,673 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:38:52,674 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:38:54,319 DEBUG   HandlerThread:430937 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 16:38:54,675 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log
+2026-05-22 16:38:56,676 INFO    Thread-12 :430937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_142211-ed88f10v/files/output.log

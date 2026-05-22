@@ -67,6 +67,66 @@ def _setup_parser():
     return parser
 
 
+def _is_raw_vit_state_dict(sd):
+    """Heuristic: a bare DINO/ViT backbone state_dict has top-level keys like
+    cls_token / pos_embed / patch_embed.* / blocks.* (no lit-model prefix)."""
+    markers = {"cls_token", "pos_embed"}
+    return any(k in markers or k.startswith("patch_embed.") or k.startswith("blocks.")
+               for k in sd.keys())
+
+
+def _extract_vit_backbone(ckpt):
+    """Return a bare ViT-backbone state_dict from a checkpoint of one of:
+      - DINO training checkpoint with 'teacher'/'student' top-level keys
+      - bare ViT state_dict (returned as-is)
+      - None if it doesn't look like a ViT-only checkpoint
+    """
+    if isinstance(ckpt, dict) and ("teacher" in ckpt or "student" in ckpt):
+        sd = ckpt.get("teacher", ckpt.get("student"))
+        # strip the DataParallel `module.` wrapper, then the multicrop `backbone.` wrapper
+        sd = {k[len("module."):] if k.startswith("module.") else k: v for k, v in sd.items()}
+        # keep only backbone params; drop the DINO projection head used during SSL pre-training
+        sd = {k[len("backbone."):]: v for k, v in sd.items() if k.startswith("backbone.")}
+        return sd
+    if isinstance(ckpt, dict) and _is_raw_vit_state_dict(ckpt):
+        return ckpt
+    return None
+
+
+def _load_pretrained_checkpoint(lit_model, ckpt_path):
+    """Load a pretrained checkpoint into lit_model. Supports:
+      - Lightning checkpoints (lit-model-prefixed state_dict)
+      - bare ViT state_dicts (e.g. models/dino_teacher_pretrained.pth)
+      - DINO training checkpoints (e.g. models/dino_pretrained.pth)
+    For the ViT-only formats, weights are loaded directly into
+    lit_model.vision_encoder.model — the newly-added head linear layer
+    has no counterpart in the checkpoint and stays random-initialized.
+    """
+    print(f"Loading full model from: {ckpt_path}")
+    ckpt = torch.load(ckpt_path, map_location="cpu")
+
+    vit_sd = _extract_vit_backbone(ckpt)
+    if vit_sd is not None:
+        print(f"Detected ViT-only checkpoint ({len(vit_sd)} keys); "
+              f"loading into vision_encoder.model")
+        missing, unexpected = lit_model.vision_encoder.model.load_state_dict(
+            vit_sd, strict=False)
+        # The head linear projection is added after the DINO backbone load and is
+        # random-initialized by design — exclude it from the "missing" report.
+        missing = [k for k in missing if not k.startswith("head.")]
+    else:
+        state_dict = ckpt.get("state_dict", ckpt)
+        missing, unexpected = lit_model.load_state_dict(state_dict, strict=False)
+
+    print(f"Loaded checkpoint.")
+    print(f"Missing keys: {len(missing)}")
+    for k in missing:
+        print(f"  - {k}")
+    print(f"Unexpected keys: {len(unexpected)}")
+    for k in unexpected:
+        print(f"  - {k}")
+
+
 def main():
     # parse args
     parser = _setup_parser()
@@ -108,32 +168,14 @@ def main():
         print("Touch encoder initialized randomly (not loaded from checkpoint)")
         lit_model = TripletLitModel(vision_encoder, audio_encoder, touch_encoder, args)
         if args.pretrained_ckpt is not None:
-            print(f"Loading full model from: {args.pretrained_ckpt}")
+            _load_pretrained_checkpoint(lit_model, args.pretrained_ckpt)
 
-            ckpt = torch.load(args.pretrained_ckpt, map_location="cpu")
-            state_dict = ckpt.get("state_dict", ckpt)
-
-            missing, unexpected = lit_model.load_state_dict(state_dict, strict=False)
-
-            print(f"Loaded checkpoint.")
-            print(f"Missing keys: {len(missing)}")
-            print(f"Unexpected keys: {len(unexpected)}")
-    
     else:
         text_encoder = TextEncoder(
             vocab, image_feature_map_dim=vision_encoder.last_cnn_out_dim, args=args)
         lit_model = MultiModalLitModel(vision_encoder, text_encoder, args)
         if args.pretrained_ckpt is not None:
-            print(f"Loading full model from: {args.pretrained_ckpt}")
-
-            ckpt = torch.load(args.pretrained_ckpt, map_location="cpu")
-            state_dict = ckpt.get("state_dict", ckpt)
-
-            missing, unexpected = lit_model.load_state_dict(state_dict, strict=False)
-
-            print(f"Loaded checkpoint.")
-            print(f"Missing keys: {len(missing)}")
-            print(f"Unexpected keys: {len(unexpected)}")
+            _load_pretrained_checkpoint(lit_model, args.pretrained_ckpt)
     
 
     checkpoint_callback = ModelCheckpoint(
