@@ -24,10 +24,8 @@ python train.py \
   --eval_include_sos_eos \
   --seed=0 \
   --optimize_unused \
-  --max_epochs=2000 \
+  --max_epochs=20 \
   --check_val_every_n_epoch=5000 \
-  --pretrained_ckpt="models/vit_triplet_256_clusters.ckpt" \
-  --exp_name="my_training_run" \
+  --pretrained_ckpt="models/dino_teacher_pretrained.pth" \
+  --exp_name="vit_speech_only_2" \
   --train_data_path="data/jsons/full_merged.json" \
-  --triplet \
-  --num_touch_classes=1024 \

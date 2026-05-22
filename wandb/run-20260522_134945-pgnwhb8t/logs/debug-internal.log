@@ -1,0 +1,192 @@
+2026-05-22 13:49:45,236 INFO    StreamThr :44834 [internal.py:wandb_internal():86] W&B internal server running at pid: 44834, started at: 2026-05-22 13:49:45.235875
+2026-05-22 13:49:45,237 DEBUG   HandlerThread:44834 [handler.py:handle_request():146] handle_request: status
+2026-05-22 13:49:45,240 INFO    WriterThread:44834 [datastore.py:open_for_write():87] open: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_134945-pgnwhb8t/run-pgnwhb8t.wandb
+2026-05-22 13:49:45,241 DEBUG   SenderThread:44834 [sender.py:send():379] send: header
+2026-05-22 13:49:45,251 DEBUG   SenderThread:44834 [sender.py:send():379] send: run
+2026-05-22 13:49:45,253 INFO    SenderThread:44834 [sender.py:_setup_resume():749] checking resume status for None/BabyFM-CLIP/pgnwhb8t
+2026-05-22 13:49:45,834 INFO    SenderThread:44834 [dir_watcher.py:__init__():211] watching files in: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_134945-pgnwhb8t/files
+2026-05-22 13:49:45,834 INFO    SenderThread:44834 [sender.py:_start_run_threads():1124] run started: pgnwhb8t with start time 1779472185.237361
+2026-05-22 13:49:45,836 DEBUG   HandlerThread:44834 [handler.py:handle_request():146] handle_request: check_version
+2026-05-22 13:49:45,837 DEBUG   SenderThread:44834 [sender.py:send_request():406] send_request: check_version
+2026-05-22 13:49:45,949 DEBUG   HandlerThread:44834 [handler.py:handle_request():146] handle_request: run_start
+2026-05-22 13:49:45,965 DEBUG   HandlerThread:44834 [system_info.py:__init__():26] System info init
+2026-05-22 13:49:45,966 DEBUG   HandlerThread:44834 [system_info.py:__init__():41] System info init done
+2026-05-22 13:49:45,966 INFO    HandlerThread:44834 [system_monitor.py:start():194] Starting system monitor
+2026-05-22 13:49:45,966 INFO    SystemMonitor:44834 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2026-05-22 13:49:45,966 INFO    HandlerThread:44834 [system_monitor.py:probe():214] Collecting system info
+2026-05-22 13:49:45,966 INFO    SystemMonitor:44834 [interfaces.py:start():190] Started cpu monitoring
+2026-05-22 13:49:45,966 INFO    SystemMonitor:44834 [interfaces.py:start():190] Started disk monitoring
+2026-05-22 13:49:45,967 INFO    SystemMonitor:44834 [interfaces.py:start():190] Started gpu monitoring
+2026-05-22 13:49:45,967 INFO    SystemMonitor:44834 [interfaces.py:start():190] Started memory monitoring
+2026-05-22 13:49:45,968 INFO    SystemMonitor:44834 [interfaces.py:start():190] Started network monitoring
+2026-05-22 13:49:45,994 DEBUG   HandlerThread:44834 [system_info.py:probe():150] Probing system
+2026-05-22 13:49:45,995 DEBUG   HandlerThread:44834 [system_info.py:_probe_git():135] Probing git
+2026-05-22 13:49:46,001 DEBUG   HandlerThread:44834 [system_info.py:_probe_git():143] Probing git done
+2026-05-22 13:49:46,001 DEBUG   HandlerThread:44834 [system_info.py:probe():198] Probing system done
+2026-05-22 13:49:46,001 DEBUG   HandlerThread:44834 [system_monitor.py:probe():223] {'os': 'Linux-4.18.0-553.125.1.el8_10.x86_64-x86_64-with-glibc2.28', 'python': '3.10.9', 'heartbeatAt': '2026-05-22T17:49:45.994411', 'startedAt': '2026-05-22T17:49:45.228289', 'docker': None, 'cuda': None, 'args': ('--lambda_mm=1.', '--lambda_lm=0.', '--embedding_type=flat', '--text_encoder=embedding', '--embedding_dim=512', '--dropout_i=.5', '--dropout_o=.0', '--finetune_cnn', '--augment_frames', '--normalize_features', '--fix_temperature', '--temperature=0.07', '--gpus=1', '--strategy=ddp', '--num_workers=8', '--batch_size=64', '--drop_last', '--optimizer=AdamW', '--lr=1e-4', '--lr_scheduler', '--weight_decay=0.1', '--val_batch_size=16', '--eval_include_sos_eos', '--seed=0', '--optimize_unused', '--max_epochs=20', '--check_val_every_n_epoch=5000', '--pretrained_ckpt=models/dino_pretrained.pth', '--exp_name=vit_speech_only_2', '--train_data_path=data/jsons/full_merged.json'), 'state': 'running', 'program': '/projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/train.py', 'codePathLocal': 'train.py', 'codePath': 'train.py', 'git': {'remote': 'https://github.com/Max-Whitton/Childs-view-contrastive-learning-from-touch.git', 'commit': '98012d46a8ae36d333c3f41710de3956f2b81156'}, 'email': None, 'root': '/projectnb/ivc-ml/maxwh/code/senses/touch/public_repo', 'host': 'scc-512', 'username': 'maxwh', 'executable': '/projectnb/ivc-ml/ac25/Baby LLaVA/multimodal-baby/.cvcl_env/bin/python', 'cpu_count': 32, 'cpu_count_logical': 32, 'cpu_freq': {'current': 4083.6893125, 'min': 800.0, 'max': 4100.0}, 'cpu_freq_per_core': [{'current': 4100.0, 'min': 800.0, 'max': 4100.0}, {'current': 4099.996, 'min': 800.0, 'max': 4100.0}, {'current': 4100.0, 'min': 800.0, 'max': 4100.0}, {'current': 4100.0, 'min': 800.0, 'max': 4100.0}, {'current': 4100.0, 'min': 800.0, 'max': 4100.0}, {'current': 4100.0, 'min': 800.0, 'max': 4100.0}, {'current': 4100.0, 'min': 800.0, 'max': 4100.0}, {'current': 4100.0, 'min': 800.0, 'max': 4100.0}, {'current': 4100.0, 'min': 800.0, 'max': 4100.0}, {'current': 4100.0, 'min': 800.0, 'max': 4100.0}, {'current': 4100.0, 'min': 800.0, 'max': 4100.0}, {'current': 4100.0, 'min': 800.0, 'max': 4100.0}, {'current': 4100.0, 'min': 800.0, 'max': 4100.0}, {'current': 4100.0, 'min': 800.0, 'max': 4100.0}, {'current': 4100.0, 'min': 800.0, 'max': 4100.0}, {'current': 4100.0, 'min': 800.0, 'max': 4100.0}, {'current': 4100.0, 'min': 800.0, 'max': 4100.0}, {'current': 4100.0, 'min': 800.0, 'max': 4100.0}, {'current': 4100.0, 'min': 800.0, 'max': 4100.0}, {'current': 4100.0, 'min': 800.0, 'max': 4100.0}, {'current': 4100.0, 'min': 800.0, 'max': 4100.0}, {'current': 4100.0, 'min': 800.0, 'max': 4100.0}, {'current': 3474.809, 'min': 800.0, 'max': 4100.0}, {'current': 4100.0, 'min': 800.0, 'max': 4100.0}, {'current': 4100.0, 'min': 800.0, 'max': 4100.0}, {'current': 4100.0, 'min': 800.0, 'max': 4100.0}, {'current': 4100.0, 'min': 800.0, 'max': 4100.0}, {'current': 4100.0, 'min': 800.0, 'max': 4100.0}, {'current': 4100.0, 'min': 800.0, 'max': 4100.0}, {'current': 4100.0, 'min': 800.0, 'max': 4100.0}, {'current': 4100.0, 'min': 800.0, 'max': 4100.0}, {'current': 4100.0, 'min': 800.0, 'max': 4100.0}], 'disk': {'/': {'total': 19.518142700195312, 'used': 15.359367370605469}}, 'gpu': 'NVIDIA L40S', 'gpu_count': 4, 'gpu_devices': [{'name': 'NVIDIA L40S', 'memory_total': 48305799168}, {'name': 'NVIDIA L40S', 'memory_total': 48305799168}, {'name': 'NVIDIA L40S', 'memory_total': 48305799168}, {'name': 'NVIDIA L40S', 'memory_total': 48305799168}], 'memory': {'total': 250.9112319946289}}
+2026-05-22 13:49:46,001 INFO    HandlerThread:44834 [system_monitor.py:probe():224] Finished collecting system info
+2026-05-22 13:49:46,001 INFO    HandlerThread:44834 [system_monitor.py:probe():227] Publishing system info
+2026-05-22 13:49:46,002 INFO    HandlerThread:44834 [system_monitor.py:probe():229] Finished publishing system info
+2026-05-22 13:49:46,024 DEBUG   SenderThread:44834 [sender.py:send():379] send: files
+2026-05-22 13:49:46,024 INFO    SenderThread:44834 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2026-05-22 13:49:46,118 DEBUG   HandlerThread:44834 [handler.py:handle_request():146] handle_request: python_packages
+2026-05-22 13:49:46,118 DEBUG   SenderThread:44834 [sender.py:send_request():406] send_request: python_packages
+2026-05-22 13:49:46,118 DEBUG   HandlerThread:44834 [handler.py:handle_request():146] handle_request: stop_status
+2026-05-22 13:49:46,119 DEBUG   SenderThread:44834 [sender.py:send_request():406] send_request: stop_status
+2026-05-22 13:49:46,120 DEBUG   HandlerThread:44834 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 13:49:46,258 DEBUG   SenderThread:44834 [sender.py:send():379] send: telemetry
+2026-05-22 13:49:46,258 DEBUG   SenderThread:44834 [sender.py:send():379] send: metric
+2026-05-22 13:49:46,258 DEBUG   SenderThread:44834 [sender.py:send():379] send: telemetry
+2026-05-22 13:49:46,258 DEBUG   SenderThread:44834 [sender.py:send():379] send: metric
+2026-05-22 13:49:46,258 WARNING SenderThread:44834 [sender.py:send_metric():1341] Seen metric with glob (shouldn't happen)
+2026-05-22 13:49:46,259 DEBUG   SenderThread:44834 [sender.py:send():379] send: exit
+2026-05-22 13:49:46,259 INFO    SenderThread:44834 [sender.py:send_exit():586] handling exit code: 1
+2026-05-22 13:49:46,259 INFO    SenderThread:44834 [sender.py:send_exit():588] handling runtime: 0
+2026-05-22 13:49:46,260 INFO    SenderThread:44834 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2026-05-22 13:49:46,260 INFO    SenderThread:44834 [sender.py:send_exit():594] send defer
+2026-05-22 13:49:46,260 DEBUG   HandlerThread:44834 [handler.py:handle_request():146] handle_request: defer
+2026-05-22 13:49:46,260 INFO    HandlerThread:44834 [handler.py:handle_request_defer():172] handle defer: 0
+2026-05-22 13:49:46,260 DEBUG   SenderThread:44834 [sender.py:send_request():406] send_request: defer
+2026-05-22 13:49:46,260 INFO    SenderThread:44834 [sender.py:send_request_defer():610] handle sender defer: 0
+2026-05-22 13:49:46,260 INFO    SenderThread:44834 [sender.py:transition_state():614] send defer: 1
+2026-05-22 13:49:46,260 DEBUG   HandlerThread:44834 [handler.py:handle_request():146] handle_request: defer
+2026-05-22 13:49:46,260 INFO    HandlerThread:44834 [handler.py:handle_request_defer():172] handle defer: 1
+2026-05-22 13:49:46,260 DEBUG   SenderThread:44834 [sender.py:send_request():406] send_request: defer
+2026-05-22 13:49:46,261 INFO    SenderThread:44834 [sender.py:send_request_defer():610] handle sender defer: 1
+2026-05-22 13:49:46,261 INFO    SenderThread:44834 [sender.py:transition_state():614] send defer: 2
+2026-05-22 13:49:46,261 DEBUG   HandlerThread:44834 [handler.py:handle_request():146] handle_request: defer
+2026-05-22 13:49:46,261 INFO    HandlerThread:44834 [handler.py:handle_request_defer():172] handle defer: 2
+2026-05-22 13:49:46,261 INFO    HandlerThread:44834 [system_monitor.py:finish():203] Stopping system monitor
+2026-05-22 13:49:46,261 DEBUG   SystemMonitor:44834 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2026-05-22 13:49:46,261 INFO    HandlerThread:44834 [interfaces.py:finish():202] Joined cpu monitor
+2026-05-22 13:49:46,261 DEBUG   SystemMonitor:44834 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2026-05-22 13:49:46,261 INFO    HandlerThread:44834 [interfaces.py:finish():202] Joined disk monitor
+2026-05-22 13:49:46,261 DEBUG   SystemMonitor:44834 [system_monitor.py:_start():183] Publishing last batch of metrics
+2026-05-22 13:49:46,360 INFO    HandlerThread:44834 [interfaces.py:finish():202] Joined gpu monitor
+2026-05-22 13:49:46,361 INFO    HandlerThread:44834 [interfaces.py:finish():202] Joined memory monitor
+2026-05-22 13:49:46,361 INFO    HandlerThread:44834 [interfaces.py:finish():202] Joined network monitor
+2026-05-22 13:49:46,361 DEBUG   SenderThread:44834 [sender.py:send_request():406] send_request: defer
+2026-05-22 13:49:46,361 INFO    SenderThread:44834 [sender.py:send_request_defer():610] handle sender defer: 2
+2026-05-22 13:49:46,361 INFO    SenderThread:44834 [sender.py:transition_state():614] send defer: 3
+2026-05-22 13:49:46,361 DEBUG   SenderThread:44834 [sender.py:send():379] send: stats
+2026-05-22 13:49:46,361 DEBUG   HandlerThread:44834 [handler.py:handle_request():146] handle_request: defer
+2026-05-22 13:49:46,361 INFO    HandlerThread:44834 [handler.py:handle_request_defer():172] handle defer: 3
+2026-05-22 13:49:46,361 DEBUG   SenderThread:44834 [sender.py:send_request():406] send_request: defer
+2026-05-22 13:49:46,361 INFO    SenderThread:44834 [sender.py:send_request_defer():610] handle sender defer: 3
+2026-05-22 13:49:46,361 INFO    SenderThread:44834 [sender.py:transition_state():614] send defer: 4
+2026-05-22 13:49:46,361 DEBUG   HandlerThread:44834 [handler.py:handle_request():146] handle_request: defer
+2026-05-22 13:49:46,361 INFO    HandlerThread:44834 [handler.py:handle_request_defer():172] handle defer: 4
+2026-05-22 13:49:46,362 DEBUG   SenderThread:44834 [sender.py:send_request():406] send_request: defer
+2026-05-22 13:49:46,362 INFO    SenderThread:44834 [sender.py:send_request_defer():610] handle sender defer: 4
+2026-05-22 13:49:46,362 INFO    SenderThread:44834 [sender.py:transition_state():614] send defer: 5
+2026-05-22 13:49:46,362 DEBUG   HandlerThread:44834 [handler.py:handle_request():146] handle_request: defer
+2026-05-22 13:49:46,362 INFO    HandlerThread:44834 [handler.py:handle_request_defer():172] handle defer: 5
+2026-05-22 13:49:46,362 DEBUG   SenderThread:44834 [sender.py:send():379] send: summary
+2026-05-22 13:49:46,362 INFO    SenderThread:44834 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2026-05-22 13:49:46,362 DEBUG   SenderThread:44834 [sender.py:send_request():406] send_request: defer
+2026-05-22 13:49:46,362 INFO    SenderThread:44834 [sender.py:send_request_defer():610] handle sender defer: 5
+2026-05-22 13:49:46,362 INFO    SenderThread:44834 [sender.py:transition_state():614] send defer: 6
+2026-05-22 13:49:46,362 DEBUG   HandlerThread:44834 [handler.py:handle_request():146] handle_request: defer
+2026-05-22 13:49:46,363 INFO    HandlerThread:44834 [handler.py:handle_request_defer():172] handle defer: 6
+2026-05-22 13:49:46,363 DEBUG   SenderThread:44834 [sender.py:send_request():406] send_request: defer
+2026-05-22 13:49:46,363 INFO    SenderThread:44834 [sender.py:send_request_defer():610] handle sender defer: 6
+2026-05-22 13:49:46,364 DEBUG   HandlerThread:44834 [handler.py:handle_request():146] handle_request: status_report
+2026-05-22 13:49:46,372 INFO    wandb-upload_0:44834 [upload_job.py:push():131] Uploaded file /scratch/5782272.1.l40s/tmp2d978a25wandb/tu1aqvch-wandb-metadata.json
+2026-05-22 13:49:46,619 INFO    SenderThread:44834 [sender.py:transition_state():614] send defer: 7
+2026-05-22 13:49:46,619 DEBUG   HandlerThread:44834 [handler.py:handle_request():146] handle_request: defer
+2026-05-22 13:49:46,619 INFO    HandlerThread:44834 [handler.py:handle_request_defer():172] handle defer: 7
+2026-05-22 13:49:46,619 DEBUG   SenderThread:44834 [sender.py:send_request():406] send_request: defer
+2026-05-22 13:49:46,619 INFO    SenderThread:44834 [sender.py:send_request_defer():610] handle sender defer: 7
+2026-05-22 13:49:46,835 INFO    Thread-12 :44834 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_134945-pgnwhb8t/files/config.yaml
+2026-05-22 13:49:46,835 INFO    Thread-12 :44834 [dir_watcher.py:_on_file_created():271] file/dir created: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_134945-pgnwhb8t/files/wandb-metadata.json
+2026-05-22 13:49:46,835 INFO    Thread-12 :44834 [dir_watcher.py:_on_file_created():271] file/dir created: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_134945-pgnwhb8t/files/requirements.txt
+2026-05-22 13:49:46,835 INFO    Thread-12 :44834 [dir_watcher.py:_on_file_created():271] file/dir created: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_134945-pgnwhb8t/files/output.log
+2026-05-22 13:49:46,835 INFO    Thread-12 :44834 [dir_watcher.py:_on_file_created():271] file/dir created: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_134945-pgnwhb8t/files/wandb-summary.json
+2026-05-22 13:49:47,164 DEBUG   HandlerThread:44834 [handler.py:handle_request():146] handle_request: poll_exit
+2026-05-22 13:49:48,263 INFO    SenderThread:44834 [sender.py:transition_state():614] send defer: 8
+2026-05-22 13:49:48,263 DEBUG   SenderThread:44834 [sender.py:send_request():406] send_request: poll_exit
+2026-05-22 13:49:48,263 DEBUG   HandlerThread:44834 [handler.py:handle_request():146] handle_request: defer
+2026-05-22 13:49:48,263 INFO    HandlerThread:44834 [handler.py:handle_request_defer():172] handle defer: 8
+2026-05-22 13:49:48,264 DEBUG   SenderThread:44834 [sender.py:send_request():406] send_request: defer
+2026-05-22 13:49:48,264 INFO    SenderThread:44834 [sender.py:send_request_defer():610] handle sender defer: 8
+2026-05-22 13:49:48,264 INFO    SenderThread:44834 [job_builder.py:build():318] Attempting to build job artifact
+2026-05-22 13:49:48,264 INFO    SenderThread:44834 [job_builder.py:_get_source_type():455] is repo sourced job
+2026-05-22 13:49:48,286 INFO    SenderThread:44834 [job_builder.py:build():431] adding wandb-job metadata file
+2026-05-22 13:49:48,296 INFO    SenderThread:44834 [sender.py:transition_state():614] send defer: 9
+2026-05-22 13:49:48,296 DEBUG   HandlerThread:44834 [handler.py:handle_request():146] handle_request: defer
+2026-05-22 13:49:48,296 INFO    HandlerThread:44834 [handler.py:handle_request_defer():172] handle defer: 9
+2026-05-22 13:49:48,296 DEBUG   SenderThread:44834 [sender.py:send():379] send: artifact
+2026-05-22 13:49:48,834 INFO    Thread-12 :44834 [dir_watcher.py:_on_file_modified():288] file/dir modified: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_134945-pgnwhb8t/files/output.log
+2026-05-22 13:49:49,164 DEBUG   HandlerThread:44834 [handler.py:handle_request():146] handle_request: poll_exit
+2026-05-22 13:49:49,230 INFO    wandb-upload_1:44834 [upload_job.py:push():89] Uploaded file /scratch/5782272.1.l40s/tmp1_3kf8vc/wandb-job.json
+2026-05-22 13:49:49,230 INFO    wandb-upload_0:44834 [upload_job.py:push():89] Uploaded file /usr3/graduate/maxwh/.local/share/wandb/artifacts/staging/tmp_kfbftcs
+2026-05-22 13:49:50,061 INFO    SenderThread:44834 [sender.py:send_artifact():1468] sent artifact job-https___github.com_Max-Whitton_Childs-view-contrastive-learning-from-touch.git_train.py - {'id': 'QXJ0aWZhY3Q6Mjg2NTQ4NTc3Nw==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEwNDE5NTIxNzI=', 'latestArtifact': None}}
+2026-05-22 13:49:50,061 DEBUG   SenderThread:44834 [sender.py:send_request():406] send_request: defer
+2026-05-22 13:49:50,061 INFO    SenderThread:44834 [sender.py:send_request_defer():610] handle sender defer: 9
+2026-05-22 13:49:50,061 INFO    SenderThread:44834 [dir_watcher.py:finish():358] shutting down directory watcher
+2026-05-22 13:49:50,835 INFO    SenderThread:44834 [dir_watcher.py:finish():388] scan: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_134945-pgnwhb8t/files
+2026-05-22 13:49:50,835 INFO    SenderThread:44834 [dir_watcher.py:finish():402] scan save: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_134945-pgnwhb8t/files/wandb-metadata.json wandb-metadata.json
+2026-05-22 13:49:50,835 INFO    SenderThread:44834 [dir_watcher.py:finish():402] scan save: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_134945-pgnwhb8t/files/config.yaml config.yaml
+2026-05-22 13:49:50,835 INFO    SenderThread:44834 [dir_watcher.py:finish():402] scan save: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_134945-pgnwhb8t/files/requirements.txt requirements.txt
+2026-05-22 13:49:50,835 INFO    SenderThread:44834 [dir_watcher.py:finish():402] scan save: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_134945-pgnwhb8t/files/wandb-summary.json wandb-summary.json
+2026-05-22 13:49:50,836 INFO    SenderThread:44834 [dir_watcher.py:finish():402] scan save: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_134945-pgnwhb8t/files/output.log output.log
+2026-05-22 13:49:50,837 INFO    SenderThread:44834 [sender.py:transition_state():614] send defer: 10
+2026-05-22 13:49:50,837 DEBUG   SenderThread:44834 [sender.py:send_request():406] send_request: poll_exit
+2026-05-22 13:49:50,838 DEBUG   HandlerThread:44834 [handler.py:handle_request():146] handle_request: defer
+2026-05-22 13:49:50,840 INFO    HandlerThread:44834 [handler.py:handle_request_defer():172] handle defer: 10
+2026-05-22 13:49:50,841 DEBUG   SenderThread:44834 [sender.py:send_request():406] send_request: defer
+2026-05-22 13:49:50,841 INFO    SenderThread:44834 [sender.py:send_request_defer():610] handle sender defer: 10
+2026-05-22 13:49:50,841 INFO    SenderThread:44834 [file_pusher.py:finish():172] shutting down file pusher
+2026-05-22 13:49:51,083 INFO    wandb-upload_2:44834 [upload_job.py:push():131] Uploaded file /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_134945-pgnwhb8t/files/config.yaml
+2026-05-22 13:49:51,117 INFO    wandb-upload_3:44834 [upload_job.py:push():131] Uploaded file /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_134945-pgnwhb8t/files/output.log
+2026-05-22 13:49:51,165 DEBUG   HandlerThread:44834 [handler.py:handle_request():146] handle_request: poll_exit
+2026-05-22 13:49:51,165 DEBUG   SenderThread:44834 [sender.py:send_request():406] send_request: poll_exit
+2026-05-22 13:49:51,222 INFO    wandb-upload_0:44834 [upload_job.py:push():131] Uploaded file /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_134945-pgnwhb8t/files/wandb-summary.json
+2026-05-22 13:49:52,165 DEBUG   HandlerThread:44834 [handler.py:handle_request():146] handle_request: poll_exit
+2026-05-22 13:49:52,166 DEBUG   SenderThread:44834 [sender.py:send_request():406] send_request: poll_exit
+2026-05-22 13:49:53,166 DEBUG   HandlerThread:44834 [handler.py:handle_request():146] handle_request: poll_exit
+2026-05-22 13:49:53,166 DEBUG   SenderThread:44834 [sender.py:send_request():406] send_request: poll_exit
+2026-05-22 13:49:53,535 INFO    wandb-upload_1:44834 [upload_job.py:push():131] Uploaded file /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_134945-pgnwhb8t/files/requirements.txt
+2026-05-22 13:49:53,735 INFO    Thread-11 (_thread_body):44834 [sender.py:transition_state():614] send defer: 11
+2026-05-22 13:49:53,736 DEBUG   HandlerThread:44834 [handler.py:handle_request():146] handle_request: defer
+2026-05-22 13:49:53,736 INFO    HandlerThread:44834 [handler.py:handle_request_defer():172] handle defer: 11
+2026-05-22 13:49:53,736 DEBUG   SenderThread:44834 [sender.py:send_request():406] send_request: defer
+2026-05-22 13:49:53,736 INFO    SenderThread:44834 [sender.py:send_request_defer():610] handle sender defer: 11
+2026-05-22 13:49:53,736 INFO    SenderThread:44834 [file_pusher.py:join():178] waiting for file pusher
+2026-05-22 13:49:53,736 INFO    SenderThread:44834 [sender.py:transition_state():614] send defer: 12
+2026-05-22 13:49:53,736 DEBUG   HandlerThread:44834 [handler.py:handle_request():146] handle_request: defer
+2026-05-22 13:49:53,736 INFO    HandlerThread:44834 [handler.py:handle_request_defer():172] handle defer: 12
+2026-05-22 13:49:53,736 DEBUG   SenderThread:44834 [sender.py:send_request():406] send_request: defer
+2026-05-22 13:49:53,736 INFO    SenderThread:44834 [sender.py:send_request_defer():610] handle sender defer: 12
+2026-05-22 13:49:53,737 INFO    SenderThread:44834 [file_stream.py:finish():614] file stream finish called
+2026-05-22 13:49:53,845 INFO    SenderThread:44834 [file_stream.py:finish():618] file stream finish is done
+2026-05-22 13:49:53,845 INFO    SenderThread:44834 [sender.py:transition_state():614] send defer: 13
+2026-05-22 13:49:53,845 DEBUG   HandlerThread:44834 [handler.py:handle_request():146] handle_request: defer
+2026-05-22 13:49:53,845 INFO    HandlerThread:44834 [handler.py:handle_request_defer():172] handle defer: 13
+2026-05-22 13:49:53,845 DEBUG   SenderThread:44834 [sender.py:send_request():406] send_request: defer
+2026-05-22 13:49:53,846 INFO    SenderThread:44834 [sender.py:send_request_defer():610] handle sender defer: 13
+2026-05-22 13:49:53,846 INFO    SenderThread:44834 [sender.py:transition_state():614] send defer: 14
+2026-05-22 13:49:53,846 DEBUG   HandlerThread:44834 [handler.py:handle_request():146] handle_request: defer
+2026-05-22 13:49:53,846 INFO    HandlerThread:44834 [handler.py:handle_request_defer():172] handle defer: 14
+2026-05-22 13:49:53,846 DEBUG   SenderThread:44834 [sender.py:send():379] send: final
+2026-05-22 13:49:53,846 DEBUG   SenderThread:44834 [sender.py:send():379] send: footer
+2026-05-22 13:49:53,846 DEBUG   SenderThread:44834 [sender.py:send_request():406] send_request: defer
+2026-05-22 13:49:53,846 INFO    SenderThread:44834 [sender.py:send_request_defer():610] handle sender defer: 14
+2026-05-22 13:49:53,846 DEBUG   HandlerThread:44834 [handler.py:handle_request():146] handle_request: poll_exit
+2026-05-22 13:49:53,846 DEBUG   SenderThread:44834 [sender.py:send_request():406] send_request: poll_exit
+2026-05-22 13:49:53,847 DEBUG   HandlerThread:44834 [handler.py:handle_request():146] handle_request: poll_exit
+2026-05-22 13:49:53,847 DEBUG   SenderThread:44834 [sender.py:send_request():406] send_request: poll_exit
+2026-05-22 13:49:53,847 DEBUG   HandlerThread:44834 [handler.py:handle_request():146] handle_request: server_info
+2026-05-22 13:49:53,847 DEBUG   SenderThread:44834 [sender.py:send_request():406] send_request: server_info
+2026-05-22 13:49:53,848 DEBUG   HandlerThread:44834 [handler.py:handle_request():146] handle_request: get_summary
+2026-05-22 13:49:53,848 DEBUG   HandlerThread:44834 [handler.py:handle_request():146] handle_request: sampled_history
+2026-05-22 13:49:53,848 DEBUG   HandlerThread:44834 [handler.py:handle_request():146] handle_request: internal_messages
+2026-05-22 13:49:53,902 INFO    MainThread:44834 [wandb_run.py:_footer_history_summary_info():3920] rendering history
+2026-05-22 13:49:53,902 INFO    MainThread:44834 [wandb_run.py:_footer_history_summary_info():3952] rendering summary
+2026-05-22 13:49:53,902 INFO    MainThread:44834 [wandb_run.py:_footer_sync_info():3879] logging synced files
+2026-05-22 13:49:53,902 DEBUG   HandlerThread:44834 [handler.py:handle_request():146] handle_request: shutdown
+2026-05-22 13:49:53,902 INFO    HandlerThread:44834 [handler.py:finish():866] shutting down handler
+2026-05-22 13:49:54,847 INFO    WriterThread:44834 [datastore.py:close():296] close: /projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/wandb/run-20260522_134945-pgnwhb8t/run-pgnwhb8t.wandb
+2026-05-22 13:49:54,902 INFO    SenderThread:44834 [sender.py:finish():1546] shutting down sender
+2026-05-22 13:49:54,902 INFO    SenderThread:44834 [file_pusher.py:finish():172] shutting down file pusher
+2026-05-22 13:49:54,902 INFO    SenderThread:44834 [file_pusher.py:join():178] waiting for file pusher

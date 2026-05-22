@@ -32,7 +32,6 @@ def _setup_parser():
     data_group = parser.add_argument_group("Data Args")
     MultiModalDataModule.add_to_argparse(data_group)
     MultiModalSAYCamDataModule.add_additional_to_argparse(data_group)
-    COCOCaptionsDataModule.add_additional_to_argparse(data_group)
     
     MultiModalSAYCamDataModuleBabyFM.add_additional_to_argparse(data_group)
 
@@ -64,8 +63,7 @@ def _setup_parser():
                         help="Path to DINO checkpoint for vision encoder initialization")
     parser.add_argument("--checkpoint_dir", type=str, default=None,
                         help="Directory to save checkpoints")
-    parser.add_argument("--num_touch_classes", type=int, default=256,
-                        help="Number of touch classes")
+
     return parser
 
 
@@ -166,12 +164,9 @@ def main():
                                                     checkpoint_callback])
 
     import multimodal.data_modules as data_modules
-    ata_modules.TRAIN_DATA_DIR = Path(args.train_data_path)
-    if args.val_data_path is not None:
-        ata_modules.VAL_DATA_DIR = Path(args.val_data_path)
-    if args.test_data_path is not None:
-        data_modules.TEST_DATA_DIR = Path(args.test_data_path)
-    if hasattr(args, 'num_touch_classes') and args.num_touch_classes is not None:
+    data_modules.TRAIN_DATA_DIR = Path(args.train_data_path)
+    
+    if args.num_touch_classes is not None:
         data_modules.TOUCH_CLUSTER_KEY = f"touch_cluster_{args.num_touch_classes}"
         print(f"Using touch cluster key: {data_modules.TOUCH_CLUSTER_KEY}")
 

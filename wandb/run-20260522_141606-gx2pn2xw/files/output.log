@@ -1,0 +1,61 @@
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Global seed set to 0
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/1
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 1 processes
+----------------------------------------------------------------------------------------------------
+Using touch cluster key: touch_cluster_1024
+Calling prepare_data!
+Calling setup for Saycam train split dataset!
+Creating datasets for Saycam train split data...
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+  | Name           | Type            | Params
+---------------------------------------------------
+0 | vision_encoder | VisionEncoder   | 303 M
+1 | text_encoder   | TextEncoder     | 6.9 M
+2 | model          | MultiModalModel | 310 M
+3 | language_model | LanguageModel   | 6.9 M
+---------------------------------------------------
+310 M     Trainable params
+0         Non-trainable params
+310 M     Total params
+1,242.842 Total estimated model params size (MB)
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/train.py", line 177, in <module>
+[rank0]:     main()
+[rank0]:   File "/projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/train.py", line 173, in main
+[rank0]:     trainer.fit(lit_model, data)
+[rank0]:   File "/projectnb/ivc-ml/ac25/Baby LLaVA/multimodal-baby/.cvcl_env/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 771, in fit
+[rank0]:     self._call_and_handle_interrupt(
+[rank0]:   File "/projectnb/ivc-ml/ac25/Baby LLaVA/multimodal-baby/.cvcl_env/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 722, in _call_and_handle_interrupt
+[rank0]:     return self.strategy.launcher.launch(trainer_fn, *args, trainer=self, **kwargs)
+[rank0]:   File "/projectnb/ivc-ml/ac25/Baby LLaVA/multimodal-baby/.cvcl_env/lib/python3.10/site-packages/pytorch_lightning/strategies/launchers/subprocess_script.py", line 93, in launch
+[rank0]:     return function(*args, **kwargs)
+[rank0]:   File "/projectnb/ivc-ml/ac25/Baby LLaVA/multimodal-baby/.cvcl_env/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 812, in _fit_impl
+[rank0]:     results = self._run(model, ckpt_path=self.ckpt_path)
+[rank0]:   File "/projectnb/ivc-ml/ac25/Baby LLaVA/multimodal-baby/.cvcl_env/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1237, in _run
+[rank0]:     results = self._run_stage()
+[rank0]:   File "/projectnb/ivc-ml/ac25/Baby LLaVA/multimodal-baby/.cvcl_env/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1324, in _run_stage
+[rank0]:     return self._run_train()
+[rank0]:   File "/projectnb/ivc-ml/ac25/Baby LLaVA/multimodal-baby/.cvcl_env/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1346, in _run_train
+[rank0]:     self._run_sanity_check()
+[rank0]:   File "/projectnb/ivc-ml/ac25/Baby LLaVA/multimodal-baby/.cvcl_env/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1407, in _run_sanity_check
+[rank0]:     val_loop._reload_evaluation_dataloaders()
+[rank0]:   File "/projectnb/ivc-ml/ac25/Baby LLaVA/multimodal-baby/.cvcl_env/lib/python3.10/site-packages/pytorch_lightning/loops/dataloader/evaluation_loop.py", line 239, in _reload_evaluation_dataloaders
+[rank0]:     self.trainer.reset_val_dataloader()
+[rank0]:   File "/projectnb/ivc-ml/ac25/Baby LLaVA/multimodal-baby/.cvcl_env/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1959, in reset_val_dataloader
+[rank0]:     self.num_val_batches, self.val_dataloaders = self._data_connector._reset_eval_dataloader(
+[rank0]:   File "/projectnb/ivc-ml/ac25/Baby LLaVA/multimodal-baby/.cvcl_env/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py", line 372, in _reset_eval_dataloader
+[rank0]:     dataloaders = self._request_dataloader(mode, model=model)
+[rank0]:   File "/projectnb/ivc-ml/ac25/Baby LLaVA/multimodal-baby/.cvcl_env/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py", line 451, in _request_dataloader
+[rank0]:     dataloader = source.dataloader()
+[rank0]:   File "/projectnb/ivc-ml/ac25/Baby LLaVA/multimodal-baby/.cvcl_env/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py", line 527, in dataloader
+[rank0]:     return method()
+[rank0]:   File "/projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/multimodal/data_modules.py", line 215, in val_dataloader
+[rank0]:     self.datasets['val'],
+[rank0]: KeyError: 'val'
+Sanity Checking: 0it [00:00, ?it/s]

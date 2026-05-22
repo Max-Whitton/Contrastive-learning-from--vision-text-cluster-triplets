@@ -30,7 +30,7 @@ def parse_args():
     parser.add_argument("--max_samples", type=int, default=100000)
 
     parser.add_argument("--backbone_path", type=str,
-                        default="models/vit_triplet_256_clusters.ckpt")
+                        default="models/vit_triplet_16_clusters.ckpt")
 
     parser.add_argument("--output_path", type=str,
                         default=None)

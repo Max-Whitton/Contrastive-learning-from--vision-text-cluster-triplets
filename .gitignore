@@ -1,3 +1,6 @@
 ignored_scripts_max
 *.ckpt
 *.json
+data
+.claude
+models

@@ -1,0 +1,10 @@
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Traceback (most recent call last):
+  File "/projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/train.py", line 180, in <module>
+    main()
+  File "/projectnb/ivc-ml/maxwh/code/senses/touch/public_repo/train.py", line 168, in main
+    if args.val_data_path is not None:
+AttributeError: 'Namespace' object has no attribute 'val_data_path'
