@@ -146,10 +146,9 @@ class SAYCamDataset(Dataset):
         }
 
 
-def run_test_mode(model, preprocess, tokenizer):
+def run_test_mode(model, preprocess, tokenizer, test_img_path):
     print("\n--- TEST MODE ---")
 
-    test_img_path = "/projectnb/ivc-ml/ac25/BabyFM/Dataset/pretraining_dataset_raw/image/S_20140112_1426_04_180680_185280_frame_2.jpg"
     captions = [
         "In a Book Reading Setting. Turning a page a Book with your hand.",
         "Being touched on an unknown object on your hand.",
@@ -211,13 +210,18 @@ if __name__ == "__main__":
     parser.add_argument('--metadata', type=str, help="Path to metadata JSON")
     parser.add_argument('--image_dir', type=str, help="Directory containing images")
     parser.add_argument('--batch_size', type=int, default=64)
+    parser.add_argument('--test_image', type=str,
+                        help="Image path used by --mode test")
 
     args = parser.parse_args()
 
     model, preprocess, tokenizer = load_model(args.model, args.pretrained)
 
     if args.mode == 'test':
-        run_test_mode(model, preprocess, tokenizer)
+        if not args.test_image:
+            print("Error: --test_image required for test mode.")
+            sys.exit(1)
+        run_test_mode(model, preprocess, tokenizer, args.test_image)
     elif args.mode == 'batch':
         if not args.metadata or not args.image_dir:
             print("Error: --metadata and --image_dir required for batch mode.")

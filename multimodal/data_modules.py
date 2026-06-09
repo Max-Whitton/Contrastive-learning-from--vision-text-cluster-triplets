@@ -12,8 +12,6 @@ import shutil
 import time
 import cv2 as cv
 
-#unused? 
-#import imageio
 from PIL import Image
 import numpy as np
 import pandas as pd
@@ -22,8 +20,6 @@ from torch.utils.data import Dataset, DataLoader
 
 import os.path
 import sys
-
-#sys.path.append('/projectnb/ivc-ml/ac25/Baby LLaVA/multimodal-baby/multimodal')
 
 from multimodal.multimodal_data_module import MultiModalDataset, \
     MultiModalDataModule, read_vocab, load_data, load_and_print_info, \

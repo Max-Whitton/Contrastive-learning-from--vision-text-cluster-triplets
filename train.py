@@ -8,7 +8,6 @@ import torch
 import pytorch_lightning as pl
 from pytorch_lightning.callbacks import ModelCheckpoint, EarlyStopping
 from pytorch_lightning.loggers import WandbLogger
-from torchinfo import summary
 
 from multimodal.multimodal_data_module import MultiModalDataModule
 from multimodal.multimodal_saycam_data_module import MultiModalSAYCamDataModule
@@ -57,7 +56,7 @@ def _setup_parser():
                              "\"last\", resume from the last checkpoint.")
     parser.add_argument("--pretrained_ckpt", type=Path, default=None,
                         help="path to pretrained checkpoint to load vision and audio encoders from (touch encoder stays random)")
-    parser.add_argument("--train_data_path", type=str, default="/projectnb/ivc-ml/maxwh/code/labeling_effort/Dataset_v2/training_data_with_images.json",
+    parser.add_argument("--train_data_path", type=str, required=True,
                         help="Path to training data JSON file")
     parser.add_argument("--dino_ckpt", type=str, default=None,
                         help="Path to DINO checkpoint for vision encoder initialization")

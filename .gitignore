@@ -9,3 +9,4 @@ __pycache__/
 wandb/
 logs/
 gemini.log
+attention_compare_outputs/
