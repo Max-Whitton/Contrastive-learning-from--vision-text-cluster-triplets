@@ -153,8 +153,10 @@ def build_feature_cache(vit, transform, device, backbone, variant, te,
 
     cache = {}
     vit.eval()
+    total = len(all_paths)
+    log_every = max(1, total // 20)  # ~20 progress lines
     with torch.no_grad():
-        for i in range(0, len(all_paths), 256):
+        for i in range(0, total, 256):
             batch = all_paths[i:i + 256]
             imgs = torch.stack([
                 transform(Image.open(_resolve(p)).convert("RGB")) for p in batch
@@ -162,6 +164,8 @@ def build_feature_cache(vit, transform, device, backbone, variant, te,
             feats = vit(imgs).cpu()
             for p, f in zip(batch, feats):
                 cache[p] = f
+            if i // 256 % max(1, log_every // 256) == 0 or i + 256 >= total:
+                print(f"[cache] {min(i + 256, total)}/{total} images", flush=True)
     torch.save(cache, cache_path)
     print(f"[cache] saved {len(cache)} features to {cache_path}")
     return cache

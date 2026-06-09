@@ -11,6 +11,11 @@ VARIANT=${VARIANT:-Y}
 EPOCHS=${EPOCHS:-50}
 LR=${LR:-1e-4}
 VOCAB=${VOCAB:-multimodal/vocab.json}
+# Set WANDB=1 to log this run to wandb (otherwise stays local).
+WANDB_FLAG=""
+if [[ "${WANDB:-0}" == "1" ]]; then
+  WANDB_FLAG="--wandb"
+fi
 
 python eval/pv_eval.py \
   --backbone vit \
@@ -23,4 +28,5 @@ python eval/pv_eval.py \
   --lr "$LR" \
   --epochs "$EPOCHS" \
   --layers 2 \
+  $WANDB_FLAG \
   "$@"
