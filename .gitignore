@@ -4,3 +4,8 @@ ignored_scripts_max
 data
 .claude
 models
+__pycache__/
+*.pyc
+wandb/
+logs/
+gemini.log

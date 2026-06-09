@@ -26,6 +26,6 @@ python train.py \
   --optimize_unused \
   --max_epochs=20 \
   --check_val_every_n_epoch=5000 \
-  --pretrained_ckpt="models/dino_pretrained.pth" \
+  --pretrained_ckpt="models/dino_teacher_pretrained.pth" \
   --exp_name="vit_speech_only_2" \
   --train_data_path="data/jsons/full_merged.json" \
