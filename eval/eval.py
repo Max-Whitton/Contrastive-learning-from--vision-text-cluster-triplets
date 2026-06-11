@@ -9,7 +9,7 @@ selected automatically; image paths inside those JSONs are stored relative to
 the repo root and resolved at load time.
 
 Example:
-    python eval/pv_eval.py \\
+    python eval/eval.py \\
         --dataset pv \\
         --backbone_path models/touch_full.ckpt \\
         --mode mlp --variant Y --text_encoder own
@@ -525,7 +525,7 @@ def main(args):
             exp_tag = f"{args.exp}_" if args.exp else ""
             torch.save(
                 save_dict,
-                os.path.join(_CKPT_DIR, f"pv_eval_{exp_tag}{backbone}_{variant}_{args.text_encoder}_{run_id}.pt"),
+                os.path.join(_CKPT_DIR, f"eval_{exp_tag}{backbone}_{variant}_{args.text_encoder}_{run_id}.pt"),
             )
             print(f"  Saved best checkpoint (val={best_val:.4f})")
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Runs eval/pv_eval.py with sensible defaults. Override MODEL/DATASET/MODE/VARIANT
+# Runs eval/eval.py with sensible defaults. Override MODEL/DATASET/MODE/VARIANT
 # on the command line, e.g.:
 #   MODEL=models/touch_full.ckpt DATASET=labeled-s MODE=zero-shot bash scripts/pv_eval_run.sh
 set -euo pipefail
@@ -17,7 +17,7 @@ if [[ "${WANDB:-0}" == "1" ]]; then
   WANDB_FLAG="--wandb"
 fi
 
-python eval/pv_eval.py \
+python eval/eval.py \
   --backbone vit \
   --backbone_path "$MODEL" \
   --dataset "$DATASET" \
