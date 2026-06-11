@@ -165,10 +165,6 @@ def main():
     import multimodal.data_modules as data_modules
     data_modules.TRAIN_DATA_DIR = Path(args.train_data_path)
 
-    if hasattr(args, 'num_touch_classes') and args.num_touch_classes is not None:
-        data_modules.TOUCH_CLUSTER_KEY = f"touch_cluster_{args.num_touch_classes}"
-        print(f"Using touch cluster key: {data_modules.TOUCH_CLUSTER_KEY}")
-
     trainer.fit(lit_model, data)
   
 

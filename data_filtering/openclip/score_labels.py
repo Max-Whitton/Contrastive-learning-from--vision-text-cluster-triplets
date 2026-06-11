@@ -99,7 +99,7 @@ def main():
     parser.add_argument("--input", type=str, required=True)
     parser.add_argument("--output", type=str, required=True)
     parser.add_argument("--cache_dir", type=str, default=None)
-    parser.add_argument("--base_dir", type=str, default=None)
+    parser.add_argument("--base_dir", type=str, default="data/clips")
     args = parser.parse_args()
 
     if args.input == args.output:

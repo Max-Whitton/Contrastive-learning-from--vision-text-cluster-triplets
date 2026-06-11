@@ -468,10 +468,10 @@ class MultiModalTripletDataset(MultiModalDataset):
     for contrastive learning between audio and touch modalities.
     """
 
-    def __init__(self, data_path, vocab, transform):
+    def __init__(self, data_path, vocab, transform, touch_cluster_key=None):
         """
         Expects data_path to be a .json file with both audio and touch captions.
-        Format: 
+        Format:
         {
             "id": {
                 "image": "path/to/image.jpg",
@@ -485,6 +485,7 @@ class MultiModalTripletDataset(MultiModalDataset):
         self.data = self._load_data(data_path)
         self.vocab = vocab
         self.transform = transform
+        self.touch_cluster_key = touch_cluster_key
 
         # Load tokenizer
         self.nlp = spacy.load(
@@ -512,7 +513,13 @@ class MultiModalTripletDataset(MultiModalDataset):
             entry = self.data[idx]
 
             audio_caption = entry.get("audio_caption", None)
-            touch_caption = entry.get(TOUCH_CLUSTER_KEY, None)
+            if self.touch_cluster_key is None:
+                raise ValueError(
+                    "MultiModalTripletDataset.touch_cluster_key is not set; "
+                    "pass touch_cluster_key=... when constructing the dataset "
+                    "(driven by --num_touch_classes from train.py)."
+                )
+            touch_caption = entry.get(self.touch_cluster_key, None)
             
 
             # Load and transform image
@@ -649,6 +656,14 @@ class MultiModalTripletDataModule(MultiModalDataModule):
 
     def __init__(self, args=None) -> None:
         super().__init__(args)
+        num_touch_classes = self.args.get("num_touch_classes", None)
+        if num_touch_classes is None:
+            raise ValueError(
+                "MultiModalTripletDataModule requires --num_touch_classes to "
+                "pick the right touch_cluster_<N> key from the data JSON."
+            )
+        self.touch_cluster_key = f"touch_cluster_{num_touch_classes}"
+        print(f"Using touch cluster key: {self.touch_cluster_key}")
 
     @staticmethod
     def add_additional_to_argparse(parser):
@@ -689,6 +704,7 @@ class MultiModalTripletDataModule(MultiModalDataModule):
                 actual_data_path,
                 vocab,
                 transform=transform,
+                touch_cluster_key=self.touch_cluster_key,
             )
             datasets[split] = dataset
 

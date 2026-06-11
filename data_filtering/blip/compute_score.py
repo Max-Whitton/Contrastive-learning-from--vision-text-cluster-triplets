@@ -21,7 +21,7 @@ def load_blip_itm(model_id: str) -> Tuple[Any, Any, str]:
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"Using device: {device}")
     processor = BlipProcessor.from_pretrained(model_id)
-    model = BlipForImageTextRetrieval.from_pretrained(model_id).to(device)
+    model = BlipForImageTextRetrieval.from_pretrained(model_id, use_safetensors=True).to(device)
     model.eval()
     return model, processor, device
 
@@ -145,7 +145,7 @@ def main():
     parser.add_argument("--output_dir", type=str, default=DEFAULT_OUTPUT_DIR)
     parser.add_argument("--output_json", type=str, default="data_with_blip_scores.json")
     parser.add_argument("--events_jsonl", type=str, default="blip_events.jsonl")
-    parser.add_argument("--video_dir", type=str, default=None)
+    parser.add_argument("--video_dir", type=str, default="data/clips")
     parser.add_argument("--num_frames", type=int, default=DEFAULT_NUM_FRAMES)
     parser.add_argument("--batch_size", type=int, default=32)
     parser.add_argument("--snapshot_every", type=int, default=100)
@@ -186,8 +186,8 @@ def main():
             continue
 
         caption = record.get("touch_caption", "").strip()
-        subfolder = "_".join(key.split("_")[:4])
-        full_video_path = os.path.join(video_dir, subfolder, key) if not os.path.isabs(key) else key
+        
+        full_video_path = os.path.join(video_dir,  key) if not os.path.isabs(key) else key
 
         if not caption:
             null_records.append((idx, record, "no_caption"))
@@ -214,8 +214,8 @@ def main():
         for i, (idx, record) in enumerate(tqdm(score_records, desc="Scoring videos")):
             key = record["video_path"]
             caption = record["touch_caption"].strip()
-            subfolder = "_".join(key.split("_")[:4])
-            full_video_path = os.path.join(video_dir, subfolder, key) if not os.path.isabs(key) else key
+   
+            full_video_path = os.path.join(video_dir, key) if not os.path.isabs(key) else key
 
             try:
                 result = score_video(
