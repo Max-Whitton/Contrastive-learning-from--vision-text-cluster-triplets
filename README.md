@@ -1,12 +1,14 @@
 # Contrastive Learning from Vision-Text Cluster Triplets
 This repo contains the code from TODO.
 
-![Overview](figures/athroughd-2-1.jpg)
-
 **A)** *Examples of [`frame, speech transcript, touch ID`] triplets (top) and data
 pairs missing either speech or touch (bottom). **B)** Visualization of model
 architecture and contrastive learning. **C)** Labeled-S test sample.
 **D)** PV test sample.*
+
+
+![Overview](figures/athroughd-2-1.jpg)
+
 
 
 
