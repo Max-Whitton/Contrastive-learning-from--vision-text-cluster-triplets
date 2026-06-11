@@ -4,6 +4,18 @@
 
 This repo contains the code from TODO.
 
+## Setup
+
+Create the conda environment from `environment.yml` (env name `touch`):
+
+```bash
+conda env create -f environment.yml
+conda activate touch
+```
+
+To update an existing `touch` env after pulling changes, run
+`conda env update -f environment.yml --prune`.
+
 ## Data
 
 ## Preprocessing
