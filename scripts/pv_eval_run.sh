@@ -6,7 +6,7 @@ set -euo pipefail
 
 MODEL=${MODEL:-models/vit_speech_only_2.ckpt}
 DATASET=${DATASET:-pv}
-MODE=${MODE:-mlp}
+MODE=${MODE:-linear_probe}
 VARIANT=${VARIANT:-Y}
 EPOCHS=${EPOCHS:-50}
 LR=${LR:-1e-4}
@@ -27,6 +27,5 @@ python eval/eval.py \
   --vocab_path "$VOCAB" \
   --lr "$LR" \
   --epochs "$EPOCHS" \
-  --layers 2 \
   $WANDB_FLAG \
   "$@"

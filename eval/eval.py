@@ -1,18 +1,21 @@
 """
 Picture-vocabulary / labeled-set evaluation.
 
-Trains a small classifier head (MLP or temporal transformer) on top of a frozen
-ViT backbone to pick which of 4 images matches a target noun. The same script
-runs both the Picture-Vocabulary (PV) and "labeled-s" categorical evals — pick
-which one with `--dataset {pv,labeled-s}`. JSON paths inside `data/jsons/` are
-selected automatically; image paths inside those JSONs are stored relative to
-the repo root and resolved at load time.
+Picks which of 4 images matches a target noun on top of a frozen ViT backbone.
+Two modes:
+  - linear_probe: train a single nn.Linear head on the train split, pick best by val.
+  - zero-shot:    no training; argmax cosine sim between (projected) image
+                  features and the noun embedding.
+The same script runs both the Picture-Vocabulary (PV) and "labeled-s"
+categorical evals — pick which one with `--dataset {pv,labeled-s}`. JSON paths
+inside `data/jsons/` are selected automatically; image paths inside those JSONs
+are stored relative to the repo root and resolved at load time.
 
 Example:
     python eval/eval.py \\
         --dataset pv \\
         --backbone_path models/touch_full.ckpt \\
-        --mode mlp --variant Y --text_encoder own
+        --mode linear_probe --variant Y --text_encoder own
 """
 
 import argparse
@@ -206,22 +209,10 @@ class PVDataset(Dataset):
 
 
 # ---------- heads ----------
-class MLPHead(nn.Module):
-    def __init__(self, in_dim, num_classes, layers):
+class LinearProbeHead(nn.Module):
+    def __init__(self, in_dim, num_classes):
         super().__init__()
-        if layers == 3:
-            self.layers = nn.Sequential(
-                nn.Linear(in_dim, 1024), nn.ReLU(),
-                nn.Linear(1024, 256),   nn.ReLU(),
-                nn.Linear(256, num_classes),
-            )
-        elif layers == 2:
-            self.layers = nn.Sequential(
-                nn.Linear(in_dim, 512), nn.ReLU(),
-                nn.Linear(512, num_classes),
-            )
-        else:
-            self.layers = nn.Sequential(nn.Linear(in_dim, num_classes))
+        self.layers = nn.Linear(in_dim, num_classes)
 
     def forward(self, x):
         return self.layers(x)
@@ -251,7 +242,7 @@ def _batch_feats(vit, imgs, feat_proj):
     return feats.reshape(B, N, -1)
 
 
-def evaluate_mlp(vit, head, loader, device, feat_proj=None):
+def evaluate_linear_probe(vit, head, loader, device, feat_proj=None):
     head.eval()
     if feat_proj is not None:
         feat_proj.eval()
@@ -429,9 +420,9 @@ def main(args):
             )
 
     head = None
-    if mode == "mlp":
+    if mode == "linear_probe":
         proj_out = 512 if variant == 'Y' else embedding_dim
-        head = MLPHead(NUM_IMAGES * proj_out + TEXT_DIM, NUM_CLASSES, args.layers)
+        head = LinearProbeHead(NUM_IMAGES * proj_out + TEXT_DIM, NUM_CLASSES)
         head = head.to(device)
 
     vit = vit.to(device)
@@ -468,7 +459,7 @@ def main(args):
         print(f"Zero-shot test acc: {test_acc:.4f}")
         return
 
-    # ── MLP head: train on train_path, track best by val ─────────────────────
+    # ── linear-probe head: train on train_path, track best by val ────────────
     train_ds = PVDataset(args.train_path, noun_embed_dict=noun_embed_dict, feature_cache=feature_cache)
     train_loader = DataLoader(train_ds, batch_size=128, shuffle=True)
 
@@ -501,7 +492,7 @@ def main(args):
             if args.wandb:
                 wandb.log({"train_loss": loss.item(), "train_acc": train_acc})
 
-        val_acc = evaluate_mlp(vit, head, val_loader, device, feat_proj=feat_proj)
+        val_acc = evaluate_linear_probe(vit, head, val_loader, device, feat_proj=feat_proj)
         if args.wandb:
             wandb.log({"epoch": epoch + 1, "val_acc": val_acc})
         print(f"Epoch {epoch + 1}: val acc = {val_acc:.4f}")
@@ -515,7 +506,6 @@ def main(args):
                     "variant":       variant,
                     "mode":          mode,
                     "text_encoder":  args.text_encoder,
-                    "layers":        args.layers,
                     "embedding_dim": embedding_dim,
                     "backbone_path": args.backbone_path,
                 },
@@ -529,7 +519,7 @@ def main(args):
             )
             print(f"  Saved best checkpoint (val={best_val:.4f})")
 
-        test_acc = evaluate_mlp(vit, head, test_loader, device, feat_proj=feat_proj)
+        test_acc = evaluate_linear_probe(vit, head, test_loader, device, feat_proj=feat_proj)
         if args.wandb:
             wandb.log({"test_acc": test_acc})
         print(f"Test accuracy: {test_acc:.4f}")
@@ -547,8 +537,9 @@ if __name__ == "__main__":
     parser.add_argument("--variant", type=str, default="X", choices=["X", "Y"],
                         help="X: raw backbone features; Y: with pretrained or fresh projection head. "
                              "Zero-shot requires Y.")
-    parser.add_argument("--mode", type=str, default="mlp", choices=["mlp", "zero-shot"],
-                        help="mlp: train a small MLP head on train+val; "
+    parser.add_argument("--mode", type=str, default="linear_probe",
+                        choices=["linear_probe", "zero-shot"],
+                        help="linear_probe: train a single Linear head on train+val; "
                              "zero-shot: argmax cosine sim of (projected) image features vs noun.")
     parser.add_argument("--text_encoder", type=str, default="own",
                         choices=["clip", "own"])
@@ -567,7 +558,6 @@ if __name__ == "__main__":
 
     parser.add_argument("--lr",     type=float, default=1e-6)
     parser.add_argument("--epochs", type=int,   default=50)
-    parser.add_argument("--layers", type=int,   default=2)
 
     parser.add_argument("--exp", type=str, default="",
                         help="Experiment tag (wandb group, prefixes ckpt and cache filenames)")

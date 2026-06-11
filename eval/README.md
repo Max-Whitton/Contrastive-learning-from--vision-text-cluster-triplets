@@ -1,14 +1,14 @@
 # Evaluation
 
 `eval.py` runs the 4-way "pick the image that matches the noun" task on top of
-a frozen ViT backbone. The same script handles both the Picture-Vocabulary
-(PV) and labeled-S categorical evals, and supports three head types:
+a frozen ViT backbone. It covers the Picture-Vocabulary (PV) and labeled-S
+categorical evals, in two modes:
 
-- **MLP head** — 2- or 3-layer MLP trained on the train split, selected by val.
-- **Linear probe** — single `nn.Linear` head (same training loop as MLP, just
-  `--layers 1`).
-- **Zero-shot** — no training; argmax cosine similarity between the (projected)
-  image features and the noun embedding.
+- **Linear probe** (`--mode linear_probe`) — train a single `nn.Linear` head on
+  the train split, select the best epoch by val accuracy, report test accuracy.
+- **Zero-shot** (`--mode zero-shot`) — no training; argmax cosine similarity
+  between the (projected) image features and the noun embedding. Requires
+  `--variant Y` so image and text features live in the same 512-d space.
 
 Each JSON input is a list of items shaped like:
 
@@ -28,23 +28,22 @@ The dataset preset (`--dataset pv` or `--dataset labeled-s`) picks the
 train/val/test JSONs from `data/jsons/` automatically:
 
 ```bash
-# PV, 2-layer MLP head
-python eval/eval.py --dataset pv --mode mlp --layers 2 \
+# PV, linear probe
+python eval/eval.py --dataset pv --mode linear_probe \
     --backbone vit --backbone_path models/touch_full.ckpt \
     --variant Y --text_encoder own --vocab_path multimodal/vocab.json
 
-# labeled-S, 2-layer MLP head
-python eval/eval.py --dataset labeled-s --mode mlp --layers 2 \
+# labeled-S, linear probe
+python eval/eval.py --dataset labeled-s --mode linear_probe \
     --backbone vit --backbone_path models/touch_full.ckpt \
     --variant Y --text_encoder own --vocab_path multimodal/vocab.json
 
-# PV, linear probe (single Linear layer)
-python eval/eval.py --dataset pv --mode mlp --layers 1 \
+# PV, zero-shot
+python eval/eval.py --dataset pv --mode zero-shot --variant Y \
     --backbone vit --backbone_path models/touch_full.ckpt \
-    --variant Y --text_encoder own --vocab_path multimodal/vocab.json
+    --text_encoder own --vocab_path multimodal/vocab.json
 
-# labeled-S, zero-shot (no training; needs --variant Y so image and text
-# features share the 512-d projection space)
+# labeled-S, zero-shot
 python eval/eval.py --dataset labeled-s --mode zero-shot --variant Y \
     --backbone vit --backbone_path models/touch_full.ckpt \
     --text_encoder own --vocab_path multimodal/vocab.json
@@ -64,8 +63,8 @@ MODEL=models/touch_full.ckpt DATASET=labeled-s MODE=zero-shot \
 ## Options
 
 - `--dataset {pv,labeled-s}` — built-in preset for train/val/test JSONs.
-- `--mode {mlp,zero-shot}` — train a head vs. zero-shot cosine similarity.
-- `--layers {1,2,3}` — head depth when `--mode mlp` (1 = linear probe).
+- `--mode {linear_probe,zero-shot}` — train a single Linear head vs. zero-shot
+  cosine similarity.
 - `--backbone {vit,cvcl,touchv1,dino,clip_official,random}` — `vit` is the
   default and expects a checkpoint produced by this repo's `train.py`.
 - `--variant {X,Y}` — X uses raw backbone features; Y attaches the pretrained
