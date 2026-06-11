@@ -12,8 +12,8 @@ from pathlib import Path
 
 
 # ===================== CONFIGURATION =====================
-LABELS_JSONL = Path("<path/to/gemini_labels.jsonl>")
-OUTPUT_JSON  = Path("<path/to/touch_captions.json>")
+LABELS_JSONL = Path("gemini/gemini_labels.jsonl")
+OUTPUT_JSON  = Path("data/jsons/touch_captions.json")
 # =========================================================
 
 

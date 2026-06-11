@@ -28,11 +28,11 @@ API_KEY     = os.environ.get("GOOGLE_API_KEY", "<YOUR_GOOGLE_API_KEY>")
 MODEL_NAME  = "gemini-2.5-flash"  # flash is recommended for high-volume jobs
 
 # PATHS
-CLIPS_DIR     = Path("<path/to/clips>")              # directory of .mp4 clips (recursed)
-OUTPUT_FILE   = Path("<path/to/gemini_labels.jsonl") # appended; used for resume
-FRAMES_DIR    = Path("<path/to/frame_cache>")        # extracted frames are written here
-LOG_FILE      = Path("<path/to/gemini.log>")
-PROMPT_FILE   = Path(__file__).with_name("prompt.txt")
+CLIPS_DIR     = Path("data/clips")              # directory of .mp4 clips (recursed)
+OUTPUT_FILE   = Path("gemini/gemini_labels.jsonl") # appended; used for resume
+FRAMES_DIR    = Path("gemini/frame_cache")        # extracted frames are written here
+LOG_FILE      = Path("gemini/gemini.log")
+PROMPT_FILE   = Path(__file__).with_name("gemini/prompt.txt")
 
 # PERFORMANCE
 NUM_PROCESSES  = 16   # keep low (1–2) for free-tier API quotas

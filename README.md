@@ -48,24 +48,34 @@ These steps can be skipped if using our prepared data.
 The `data_filtering/` folder contains scripts for scoring and filtering image-caption pairs before training. Supports BLIP, OpenCLIP, SigLIP, and Qwen models. See `data_filtering/README.md` for usage.
 
 ### Gemini touch labels
-Touch captions can be auto-generated with Gemini in two steps:
+Touch captions can be auto-generated with Gemini in two steps. Defaults assume
+the repo layout (`data/clips/` for input, `gemini/` for intermediate output,
+`data/jsons/` for the final captions), so if you keep that layout you only
+need to set your API key:
 
-1. Annotate clips with `gemini/annotate.py`. Edit the `CONFIGURATION` block at
-   the top of the file to set `CLIPS_DIR`, `OUTPUT_FILE`, `FRAMES_DIR`, and
-   `LOG_FILE`, then export your API key (`export GOOGLE_API_KEY=...`) and run:
+```bash
+export GOOGLE_API_KEY=...
+```
+
+1. **Annotate clips** with `gemini/annotate.py`. The defaults read clips from
+   `data/clips/`, write labels to `gemini/gemini_labels.jsonl`, cache
+   extracted frames in `gemini/frame_cache/`, and log to `gemini/gemini.log`.
+   Override any of these in the `CONFIGURATION` block at the top of the file
+   if your paths differ, then run:
    ```bash
    python gemini/annotate.py
    ```
    The prompt lives in `gemini/prompt.txt`; tweak it there. The script is
    resumable — re-running skips clips already in `OUTPUT_FILE`.
-2. Turn the structured labels into natural-language captions with
-   `gemini/add_touch_caption.py`. Set `LABELS_JSONL` and `OUTPUT_JSON` at the
-   top of the file, then run:
+2. **Build natural-language captions** with `gemini/add_touch_caption.py`.
+   Defaults read `gemini/gemini_labels.jsonl` and write
+   `data/jsons/touch_captions.json` (a list of
+   `{"video_path", "touch_caption"}` items ready to merge into your training
+   JSON). Override `LABELS_JSONL` / `OUTPUT_JSON` at the top of the file if
+   needed, then run:
    ```bash
    python gemini/add_touch_caption.py
    ```
-   The resulting `[{video_path, touch_caption}, ...]` JSON can be merged into
-   your training JSON under `data/jsons/`.
 
 ### Clustering
 Set `path` and `CLUSTER_NUMBERS` in `run_k_means.py`, then run this file. Note that larger k values in `CLUSTER_NUMBERS` take a very long time to run.
