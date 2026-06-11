@@ -2,6 +2,11 @@
 
 ![Overview](figures/athroughd-2-1.jpg)
 
+*Examples of [`frame, speech transcript, touch ID`] triplets (top) and data
+pairs missing either speech or touch (bottom). **B)** Visualization of model
+architecture and contrastive learning. **C)** Labeled-S test sample.
+**D)** PV test sample.*
+
 This repo contains the code from TODO.
 
 ## Setup
