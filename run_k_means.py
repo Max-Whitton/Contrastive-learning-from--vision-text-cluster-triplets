@@ -12,12 +12,13 @@ import json
 # Configuration
 # -----------------------------
 path = "data/jsons/full_touch.json"
+CLUSTER_NUMBERS = [4, 16, 64, 256]
+
+
 MODEL_NAME = "openai/clip-vit-large-patch14"  # powerful pre-trained CLIP
 BATCH_SIZE = 64
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
-# Set NUM_CLUSTERS=None to automatically find best k using silhouette score
-# NUM_CLUSTERS = 16
 
 # -----------------------------
 # Example data
@@ -76,7 +77,7 @@ embeddings = encode_texts(captions, BATCH_SIZE)
 # -----------------------------
 # Final clustering
 # -----------------------------
-for NUM_CLUSTERS in [4, 16, 64, 256]:
+for NUM_CLUSTERS in CLUSTER_NUMBERS:
     kmeans = KMeans(n_clusters=NUM_CLUSTERS, n_init=20, random_state=42)
     labels = kmeans.fit_predict(embeddings)
 
