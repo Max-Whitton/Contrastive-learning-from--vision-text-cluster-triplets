@@ -61,15 +61,6 @@ See `scripts/triplet_run.sh` and `scripts/speech/only_run.sh` for full examples 
 This repo supports eval on Labeled-S and Picture Vocabulary. See `eval/README.md` for details on `eval/eval.py` configurations.
 
 
-## Structure
-
-```
-├── train.py              # main training script
-├── run.sh                # example training command
-├── data_filtering/       # scripts for filtering image-caption pairs
-└── multimodal/           # model and data module code (submodule)
-```
-
 
 ## Acknowledgment
 
