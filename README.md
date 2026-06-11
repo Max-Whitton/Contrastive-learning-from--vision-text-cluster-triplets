@@ -57,8 +57,6 @@ Set `path` and `CLUSTER_NUMBERS` in `run_k_means.py`, then run this file. Note t
 ## Training
 See `scripts/triplet_run.sh` and `scripts/speech/only_run.sh` for full examples with all hyperparameters.
 
-![Attention maps](figures/attention_maps-1.png)
-
 ## Evaluation
 This repo supports eval on Labeled-S and Picture Vocabulary. See `eval/README.md` for details on `eval/eval.py` configurations.
 
