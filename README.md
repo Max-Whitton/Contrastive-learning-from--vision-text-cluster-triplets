@@ -1,13 +1,14 @@
 # Contrastive Learning from Vision-Text Cluster Triplets
+This repo contains the code from TODO.
 
 ![Overview](figures/athroughd-2-1.jpg)
 
-*Examples of [`frame, speech transcript, touch ID`] triplets (top) and data
+**A)** *Examples of [`frame, speech transcript, touch ID`] triplets (top) and data
 pairs missing either speech or touch (bottom). **B)** Visualization of model
 architecture and contrastive learning. **C)** Labeled-S test sample.
 **D)** PV test sample.*
 
-This repo contains the code from TODO.
+
 
 ## Setup
 
@@ -18,15 +19,19 @@ conda env create -f environment.yml
 conda activate touch
 ```
 
-To update an existing `touch` env after pulling changes, run
-`conda env update -f environment.yml --prune`.
-
 ## Data
+### To use our data:
+Download clips, jsons, labeled-s, and pv folders from (Databrary link TODO), and place them in data/clips, data/jsons, data/labeled-s, and data/pv.
+
+### To use your own:
 
 ## Preprocessing
-### Clustering
+These steps can be skipped if using our prepared data.
 ### Filtering
 The `data_filtering/` folder contains scripts for scoring and filtering image-caption pairs before training. Supports BLIP, OpenCLIP, SigLIP, and Qwen models. See `data_filtering/README.md` for usage.
+
+### Clustering
+Set path and CLUSTER_NUMBERS in run_k_means.py, then run this file. Note that larger k values in CLUSTER_NUMBERS take a very long time to run.
 
 ## Training
 See `scripts/triplet_run.sh` and 'scripts/speech/only_run.sh' for full examples with all hyperparameters.
@@ -34,6 +39,7 @@ See `scripts/triplet_run.sh` and 'scripts/speech/only_run.sh' for full examples 
 ![Attention maps](figures/attention_maps-1.png)
 
 ## Evaluation
+This repo supports eval on Labeled-S and Picture Vocabulary. See eval/README.md for details on eval/eval.py configurations.
 
 
 ## Structure
