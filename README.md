@@ -1,5 +1,7 @@
 # Contrastive Learning from Vision-Text Cluster Triplets
 
+![Overview](figures/athroughd-2-1.jpg)
+
 This repo contains the code from TODO.
 
 ## Data
@@ -11,6 +13,8 @@ The `data_filtering/` folder contains scripts for scoring and filtering image-ca
 
 ## Training
 See `scripts/triplet_run.sh` and 'scripts/speech/only_run.sh' for full examples with all hyperparameters.
+
+![Attention maps](figures/attention_maps-1.png)
 
 ## Evaluation
 
