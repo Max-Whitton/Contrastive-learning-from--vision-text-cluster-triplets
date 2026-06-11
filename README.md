@@ -10,7 +10,7 @@ This repo contains the code from TODO.
 The `data_filtering/` folder contains scripts for scoring and filtering image-caption pairs before training. Supports BLIP, OpenCLIP, SigLIP, and Qwen models. See `data_filtering/README.md` for usage.
 
 ## Training
-See `run.sh` for full example with all hyperparameters.
+See `scripts/triplet_run.sh` and 'scripts/speech/only_run.sh' for full examples with all hyperparameters.
 
 ## Evaluation
 
