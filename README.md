@@ -47,6 +47,26 @@ These steps can be skipped if using our prepared data.
 ### Filtering
 The `data_filtering/` folder contains scripts for scoring and filtering image-caption pairs before training. Supports BLIP, OpenCLIP, SigLIP, and Qwen models. See `data_filtering/README.md` for usage.
 
+### Gemini touch labels
+Touch captions can be auto-generated with Gemini in two steps:
+
+1. Annotate clips with `gemini/annotate.py`. Edit the `CONFIGURATION` block at
+   the top of the file to set `CLIPS_DIR`, `OUTPUT_FILE`, `FRAMES_DIR`, and
+   `LOG_FILE`, then export your API key (`export GOOGLE_API_KEY=...`) and run:
+   ```bash
+   python gemini/annotate.py
+   ```
+   The prompt lives in `gemini/prompt.txt`; tweak it there. The script is
+   resumable — re-running skips clips already in `OUTPUT_FILE`.
+2. Turn the structured labels into natural-language captions with
+   `gemini/add_touch_caption.py`. Set `LABELS_JSONL` and `OUTPUT_JSON` at the
+   top of the file, then run:
+   ```bash
+   python gemini/add_touch_caption.py
+   ```
+   The resulting `[{video_path, touch_caption}, ...]` JSON can be merged into
+   your training JSON under `data/jsons/`.
+
 ### Clustering
 Set `path` and `CLUSTER_NUMBERS` in `run_k_means.py`, then run this file. Note that larger k values in `CLUSTER_NUMBERS` take a very long time to run.
 
